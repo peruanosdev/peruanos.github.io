@@ -1,7 +1,27 @@
-**Meetups Locales Por Ciudad**
+#Meetups Locales Por Ciudad
 
 
-Lima
+###Arequipa
+
+* [https://www.meetup.com/GDG-Arequipa/](GDG Arequipa)
+
+
+###Ica
+
+* [https://www.meetup.com/GDG-Ica/](GDG Ica)
+
+
+###Cusco
+
+* [https://www.meetup.com/gdgcuscoperu/](GDG Cusco)
+
+
+###Chimbote
+
+* [https://www.meetup.com/GDGChimbote/](GDG Chimbote)
+
+
+###Lima
 
 * [https://www.meetup.com/Ansible-Peru/](Ansible Perú)
 * [https://www.meetup.com/agileperu/](Agile Perú)
@@ -44,3 +64,13 @@ Lima
 * [https://www.meetup.com/witperu/](WiT Peru)
 * [https://www.meetup.com/Women-Techmakers-Lima/](Women Techmakers Lima)
 * [https://www.meetup.com/wpperu-lima/](WordPress Perú - Lima)
+
+
+###Piura
+
+* [https://www.meetup.com/GDG-Piura/](GDG Piura)
+
+
+###Trujillo
+
+* [https://www.meetup.com/GDG-Trujillo/](GDG Trujillo)
