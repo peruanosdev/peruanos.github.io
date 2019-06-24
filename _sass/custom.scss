@@ -1,5 +1,8 @@
+
+
 .row {
     display: flex;
+    margin: 0 auto;
 }
 
 .column {
@@ -11,4 +14,36 @@
     display: block;
     width: 256px;
     margin: 0 auto;
+    color: #666;
+
+    h1 {
+        margin-top: 50px;
+    }
+}
+
+.communities-list {
+
+    dt {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: small;
+        color: #888;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 10px;
+    }
+
+    dd {
+        margin-bottom: 20px;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin-left: 0;
+    }
+
+    li {
+        padding: 3px 0;
+    }
+
+
 }
