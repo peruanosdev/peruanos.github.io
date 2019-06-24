@@ -10,12 +10,12 @@ layout: default
     </div>
     <div class="column communities-list"> 
         {% assign cities = site.data.communities | group_by:"city" %}
-        {% for city in cities %}
+        {% for city in cities | sort: 'name' %}
 
         <dt>{{ city.name }}</dt>
         <dd>
             <ul>
-            {% for community in city.items %}
+            {% for community in city.items | sort: 'name' %}
                 <li>
                     <a href="{{ community.url }}" target="_blank">
                         {{ community.name }}
