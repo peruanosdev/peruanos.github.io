@@ -3,11 +3,17 @@
 .row {
     display: flex;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .column {
     padding: 50px;
-    flex: 50%;
+}
+
+@media (max-width:760px) {
+    .row {
+      flex-direction: column;
+    }
 }
 
 .site-description {
