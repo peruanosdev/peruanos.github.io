@@ -5,6 +5,11 @@
     "city": "Arequipa"
   },
   {
+    "name": "WordPress Perú - Arequipa",
+    "url": "https://www.meetup.com/wpperu-arequipa/",
+    "city": "Arequipa"
+  },
+  {
     "name": "GDG Ica",
     "url": "https://www.meetup.com/GDG-Ica/",
     "city": "Ica"
@@ -12,6 +17,11 @@
   {
     "name": "GDG Cusco",
     "url": "https://www.meetup.com/gdgcuscoperu/",
+    "city": "Cusco"
+  },
+  {
+    "name": "WordPress Perú - Cusco",
+    "url": "https://www.meetup.com/wpperu-cusco/",
     "city": "Cusco"
   },
   {
@@ -180,6 +190,11 @@
     "city": "Lima"
   },
   {
+    "name": "PyData-Lima",
+    "url": "https://www.meetup.com/PyData-Lima/",
+    "city": "Lima"
+  },
+  {
     "name": "PyLadies Lima",
     "url": "https://www.meetup.com/PyLadiesLima/",
     "city": "Lima"
@@ -202,6 +217,11 @@
   {
     "name": "Ruby Perú",
     "url": "https://www.meetup.com/rubyperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "R-Ladies Lima",
+    "url": "https://www.meetup.com/rladies-lima/",
     "city": "Lima"
   },
   {
@@ -242,6 +262,11 @@
   {
     "name": "GDG Trujillo",
     "url": "https://www.meetup.com/GDG-Trujillo/",
+    "city": "Trujillo"
+  },
+  {
+    "name": "WordPress Perú - Trujillo",
+    "url": "https://www.meetup.com/wpperu-trujillo/",
     "city": "Trujillo"
   }
 ]
