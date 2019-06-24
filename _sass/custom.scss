@@ -1,0 +1,14 @@
+.row {
+    display: flex;
+}
+
+.column {
+    padding: 50px;
+    flex: 50%;
+}
+
+.site-description {
+    display: block;
+    width: 256px;
+    margin: 0 auto;
+}
