@@ -2,7 +2,7 @@
 title: Inicio
 ---
 
-<img src="/peruanosdev.github.io/assets/img/logo.jpeg" alt="peruanos.dev" title="peruanos.dev" width="256" style="display: block; margin: 0 auto;">
+<img src="/assets/img/logo.jpeg" alt="peruanos.dev" title="peruanos.dev" width="256" style="display: block; margin: 0 auto;">
 
 # ¡Hola!
 
