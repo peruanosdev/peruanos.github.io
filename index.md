@@ -62,7 +62,7 @@ title: Inicio
 
 # ¡Hola!
 
-Estamos creando un directorio con todas las comunidades de tecnología en el Perú. Si no encuentras tu comunidad aquí puedes agregarlo a través de un [pull request](https://github.com/peruanosdev/peruanosdev.github.io).
+Estamos creando un directorio con todas las comunidades de tecnología en el Perú. Si no encuentras tu comunidad aquí puedes agregarla desde [aquí](https://github.com/peruanosdev/peruanos.github.io/edit/master/_data/communities.json).
 
 <div class="contribute-button">
   <a href="https://github.com/peruanosdev/peruanos.github.io">
