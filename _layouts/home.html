@@ -18,7 +18,7 @@ layout: default
             {% for community in city.items | sort: 'name' %}
                 <li>
                     <a href="{{ community.url }}" target="_blank">
-                        {{ community.name }}
+                        {{ community.name }} {{meetup_members_counter community.url}}
                     </a>
                 </li>
             {% endfor %}
