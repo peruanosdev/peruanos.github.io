@@ -20,7 +20,10 @@ layout: default
                     <a href="{{ community.url }}" target="_blank">
                         {{ community.name }}
                     </a>
-                    <span class="members-counter">{% meetup_members_counter community.url %} miembros</span>
+
+                    <div class="members-counter">
+                        {% meetup_members_counter(community.url) %}
+                    </div>
                 </li>
             {% endfor %}
             </ul>
