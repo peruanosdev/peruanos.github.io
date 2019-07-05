@@ -90,6 +90,11 @@
     "city": "Lima"
   },
   {
+    "name": "FemDevs Perú",
+    "url": "https://www.facebook.com/FemDevsPeru",
+    "city": "Lima"
+  },
+  {
     "name": "Firebase Perú",
     "url": "https://www.meetup.com/Firebase-Peru/",
     "city": "Lima"
@@ -102,6 +107,11 @@
   {
     "name": "Frontend Perú",
     "url": "https://www.meetup.com/Frontend-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Game Devs Perú",
+    "url": "https://www.facebook.com/groups/igdaperu/",
     "city": "Lima"
   },
   {
@@ -237,6 +247,11 @@
   {
     "name": "Tech Talks Perú",
     "url": "https://www.meetup.com/tech-talks-pe/",
+    "city": "Lima"
+  },
+  {
+    "name": "Unreal Engine Lima",
+    "url": "https://www.meetup.com/Unreal-Engine-Lima/",
     "city": "Lima"
   },
   {
