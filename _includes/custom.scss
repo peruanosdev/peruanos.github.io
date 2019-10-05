@@ -1,4 +1,4 @@
-
+@import "minima";
 
 .row {
     display: flex;
@@ -48,7 +48,14 @@
     }
 
     li {
+        display: flex;
+        justify-content: space-between;
         padding: 3px 0;
+        border-bottom: 1px solid #efefef;
+    }
+
+    li:last-of-type {
+        border-bottom: 0;
     }
 
 
@@ -71,4 +78,14 @@
     }
 
 
+}
+
+.members-counter span {
+    font-size: 10px;
+    color: #fff;
+    background-color: #3e3e3e;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    margin-left: 10px;
+    
 }

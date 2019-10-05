@@ -1,4 +1,5 @@
 ---
+layout: home
 title: Inicio
 ---
 
@@ -58,7 +59,6 @@ title: Inicio
     <text id="La_lista_de_todos_" data-name="La lista de todos!" transform="translate(330 869)" fill="#e8e8e8" font-size="22" font-family="Helvetica"><tspan x="0" y="0">La lista de todos!</tspan></text>
   </g>
 </svg>
-
 
 # ¡Hola!
 
