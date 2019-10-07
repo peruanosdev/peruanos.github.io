@@ -36,7 +36,7 @@ module Jekyll
         def render(context)
             uri = context[@meetup_uri] || @meetup_uri
             meetup_data = get_meetup_data(uri)
-            return meetup_data ? "<span>#{meetup_data["members"]}</span> miembros" : nil
+            return meetup_data ? "<img src='https://img.shields.io/badge/#{meetup_data["members"]}-miembros-green.svg' alt='#{meetup_data["members"]} miembros'>" : nil
         end
     end
 end
