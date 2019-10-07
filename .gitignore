@@ -4,3 +4,6 @@ _site
 .DS_Store
 ._site
 .Gemfile.lock
+#IntelliJ files
+*.iml
+.idea/
