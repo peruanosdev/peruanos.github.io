@@ -1,0 +1,19 @@
+{% if site.data.results[include.url] %}
+<span id="tooltip-{{ include.label_index }}" style="display: none">
+  <div class="title">
+      <a href="{{include.url}}" target="_blank">
+          {{ include.name }}
+        <i class="fa fa-external-link" style="font-size:12px"></i>
+      </a>
+      {% if site.data.results[include.url].group_photo.thumb_link %}
+        <a href="{{include.url}}" target="_blank">
+          <img src="{{site.data.results[include.url].group_photo.thumb_link}}"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
+
+        </a>
+      {% endif %}
+  </div>
+  <div class="description truncate">
+      {{site.data.results[include.url].description}}
+  </div>
+</span>
+{% endif %}
