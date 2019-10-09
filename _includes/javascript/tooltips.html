@@ -1,0 +1,25 @@
+<script type="application/javascript">
+  $(document).ready(function(){
+
+    var openedTooltip = null;
+
+    {% for communities in site.data.communities %}
+    {% if site.data.results[communities.url] %}
+    var tooltip_{{forloop.index0}} = new jBox('Tooltip', {
+      attach: '#label-{{ forloop.index0 }}',
+      preventDefault: true,
+      trigger: 'click',
+      maxWidth: 500,
+      maxHeight: 400,
+      onOpen: function(){
+        if (openedTooltip != null && openedTooltip!==this) {
+          openedTooltip.close();
+        }
+        openedTooltip = this;
+      },
+      content: $("#tooltip-{{ forloop.index0 }}")
+    });
+    {%endif %}
+    {%endfor %}
+  });
+</script>

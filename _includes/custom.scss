@@ -27,7 +27,7 @@
     }
 }
 
-.communities-list {
+.communities-list, .events{
 
     dt {
         text-transform: uppercase;
@@ -59,6 +59,11 @@
     }
 
 
+}
+.events{
+    li {
+        display: block;
+    }
 }
 
 .contribute-button {

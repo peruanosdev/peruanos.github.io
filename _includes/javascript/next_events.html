@@ -1,0 +1,45 @@
+<script type="application/javascript">
+  $(document).ready(function () {
+    $.ajax({
+      url: "http://community-event-aggregator.herokuapp.com/", //Real Data
+      //url: "/sample.json", //Testing Data
+      success: function (data) {
+        var twoMonthsFromNow = moment().add(1, 'months');
+        data.forEach(function (item, index) {
+          var event_date_long = item["time"];
+          var event_date = moment(event_date_long);
+          var communityName = item.communityName;
+          var event_name = item.name;
+          var event_url = item.eventUrl;
+          if (event_date.isBefore(twoMonthsFromNow)) {
+            console.log(twoMonthsFromNow);
+            var $li = createEventRow(event_name, event_url, communityName, event_date);
+            $('#event-list').append($li);
+          }
+        });
+      },
+      headers: {
+        'Access-Control-Allow-Origin': '*'
+      },
+      timeout: 9000
+    });
+  });
+
+  function createEventRow(eventName, eventUrl, communityName, eventDate) {
+    return $("<li>" +
+        "<div>" +
+        "<a href='" + eventUrl + "' target='_blank'>" +
+        eventName +
+        "</a>" +
+        "<span style='float: right'>" +
+        eventDate.format("DD/MM/YYYY") +
+        "</span>" +
+        "</div>" +
+
+        "<div>" +
+        communityName +
+        "</div>" +
+        "</li>")
+  }
+
+</script>
