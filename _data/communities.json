@@ -3,5 +3,300 @@
     "name": "GDG Arequipa",
     "url": "https://www.meetup.com/GDG-Arequipa/",
     "city": "Arequipa"
+  },
+  {
+    "name": "WordPress Perú - Arequipa",
+    "url": "https://www.meetup.com/wpperu-arequipa/",
+    "city": "Arequipa"
+  },
+  {
+    "name": "GDG Ica",
+    "url": "https://www.meetup.com/GDG-Ica/",
+    "city": "Ica"
+  },
+  {
+    "name": "GDG Cusco",
+    "url": "https://www.meetup.com/gdgcuscoperu/",
+    "city": "Cusco"
+  },
+  {
+    "name": "WordPress Perú - Cusco",
+    "url": "https://www.meetup.com/wpperu-cusco/",
+    "city": "Cusco"
+  },
+  {
+    "name": "GDG Chimbote",
+    "url": "https://www.meetup.com/GDGChimbote/",
+    "city": "Chimbote"
+  },
+  {
+    "name": "Ansible Perú",
+    "url": "https://www.meetup.com/Ansible-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Agile Perú",
+    "url": "https://www.meetup.com/agileperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "Android Dev Perú",
+    "url": "https://www.meetup.com/Android-Dev-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "AWS User Group Peru",
+    "url": "https://www.meetup.com/awsperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "Cloud Native Computing Perú",
+    "url": "https://www.meetup.com/es/Cloud-Native-Computing-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Comunidad MS Azure, Office 365 y Power BI Perú",
+    "url": "https://www.meetup.com/MSAzure-O365-PowerBI-Latam/",
+    "city": "Lima"
+  },
+  {
+    "name": "Data Science Lima",
+    "url": "https://www.meetup.com/Data-Science-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "DevOps Perú",
+    "url": "https://www.meetup.com/DevOps-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "DigitalOcean Lima",
+    "url": "https://www.meetup.com/DigitalOceanLima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Docker Lima",
+    "url": "https://www.meetup.com/Docker-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Drupal Lima",
+    "url": "https://www.meetup.com/Drupal-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "E-Commerce Lima",
+    "url": "https://www.meetup.com/e-commerce-lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Facebook Developer Circle: Lima",
+    "url": "https://www.facebook.com/groups/DevCLima/",
+    "city": "Lima"
+  },
+  {
+    "name": "FemDevs Perú",
+    "url": "https://www.facebook.com/FemDevsPeru",
+    "city": "Lima"
+  },
+  {
+    "name": "Firebase Perú",
+    "url": "https://www.meetup.com/Firebase-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Flutter Perú",
+    "url": "https://www.meetup.com/Flutter-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Frontend Perú",
+    "url": "https://www.meetup.com/Frontend-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Game Devs Perú",
+    "url": "https://www.facebook.com/groups/igdaperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "GDG Lima",
+    "url": "https://www.meetup.com/gdglima/",
+    "city": "Lima"
+  },
+  {
+    "name": "GDG Open",
+    "url": "https://www.meetup.com/GDG-Open/",
+    "city": "Lima"
+  },
+  {
+    "name": "Google Cloud Developer Community Lima",
+    "url": "https://www.meetup.com/Google-Cloud-Developer-Community-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "GolangLima",
+    "url": "https://www.meetup.com/Golang-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Hablemos de Testing",
+    "url": "https://www.meetup.com/hablemos-de-testing/",
+    "city": "Lima"
+  },
+  {
+    "name": "Hacker Dome",
+    "url": "https://www.meetup.com/Hacker-Dome/",
+    "city": "Lima"
+  },
+  {
+  "name": "Innovua Makerhack", 
+  "url": "https://www.facebook.com/Innovua", 
+  "city": "Lima"
+  },
+  {
+    "name": "iOS Dev Perú",
+    "url": "https://www.meetup.com/IOS-Dev-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "LimaJS",
+    "url": "https://www.meetup.com/LimaJS/",
+    "city": "Lima"
+  },
+  {
+    "name": "Lima NodeJS Meetup",
+    "url": "https://www.meetup.com/Lima-NodeJS-Meetup/",
+    "city": "Lima"
+  },
+  {
+    "name": "Lima Virtual Reality - VR",
+    "url": "https://www.meetup.com/Lima-Virtual-Reality-VR/",
+    "city": "Lima"
+  },
+  {
+    "name": "Makers Lima",
+    "url": "https://www.meetup.com/Makers-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Meetup de PHP en Lima",
+    "url": "https://www.meetup.com/Meetup-de-PHP-en-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Microsoft User Group Perú",
+    "url": "https://www.meetup.com/msperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "MongoDB Perú",
+    "url": "https://www.meetup.com/mongodbperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "OpenLab Perú",
+    "url":  "https://www.facebook.com/OpenLabPERU",
+    "city": "Lima"
+  },
+  {
+    "name": "Openstack Perú",
+    "url": "https://www.meetup.com/Openstack-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Perú Java User Group",
+    "url": "https://www.meetup.com/Peru-Java-User-Group/",
+    "city": "Lima"
+  },
+  {
+    "name": "Perú Kotlin User Group",
+    "url": "https://www.meetup.com/Peru-Kotlin-User-Group/",
+    "city": "Lima"
+  },
+  {
+    "name": "Perú .NET Development",
+    "url": "https://www.meetup.com/PeruNetDevelopment/",
+    "city": "Lima"
+  },
+  {
+    "name": "PyData-Lima",
+    "url": "https://www.meetup.com/PyData-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Python Perú",
+    "url": "https://www.meetup.com/pythonperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "React Native Perú",
+    "url": "https://www.meetup.com/React-Native-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "ReactLima",
+    "url": "https://www.meetup.com/ReactJS-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Ruby Perú",
+    "url": "https://www.meetup.com/rubyperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "R-Ladies Lima",
+    "url": "https://www.meetup.com/rladies-lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Sketch & Design - Perú",
+    "url": "https://www.meetup.com/Sketch-DesignLima/",
+    "city": "Lima"
+  },
+  {
+    "name": "Software Crafters Perú",
+    "url": "https://www.meetup.com/Software-Crafters-Peru/",
+    "city": "Lima"
+  },
+  {
+    "name": "Tech Talks Perú",
+    "url": "https://www.meetup.com/tech-talks-pe/",
+    "city": "Lima"
+  },
+  {
+    "name": "Unreal Engine Lima",
+    "url": "https://www.meetup.com/Unreal-Engine-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "WiT Peru",
+    "url": "https://www.meetup.com/witperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "Women Techmakers Lima",
+    "url": "https://www.meetup.com/Women-Techmakers-Lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "WordPress Perú - Lima",
+    "url": "https://www.meetup.com/wpperu-lima/",
+    "city": "Lima"
+  },
+  {
+    "name": "GDG Piura",
+    "url": "https://www.meetup.com/GDG-Piura/",
+    "city": "Piura"
+  },
+  {
+    "name": "GDG Trujillo",
+    "url": "https://www.meetup.com/GDG-Trujillo/",
+    "city": "Trujillo"
+  },
+  {
+    "name": "WordPress Perú - Trujillo",
+    "url": "https://www.meetup.com/wpperu-trujillo/",
+    "city": "Trujillo"
   }
 ]

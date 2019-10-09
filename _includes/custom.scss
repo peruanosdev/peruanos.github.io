@@ -96,3 +96,14 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.contributors {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+
+    .contributor {
+        width: 40px;
+        padding: 1px;
+    }
+}

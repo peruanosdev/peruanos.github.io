@@ -21,9 +21,8 @@ module Jekyll
 
             element = "<div class='contributors'>"
             contributors.each do |contributor|
-                p contributor
                 element += "<div class='contributor'>"
-                element += "    <a href='#{contributor["html_url"]}'>"
+                element += "    <a href='#{contributor["html_url"]}' title='#{contributor["title"]}'>"
                 element += "        <img class='User__image' src='#{contributor["avatar_url"]}'>"
                 element += "    </a>"
                 element += "</div>"
