@@ -5,17 +5,31 @@
       //url: "/sample.json", //Testing Data
       success: function (data) {
         var twoMonthsFromNow = moment().add(1, 'months');
-        data.forEach(function (item, index) {
-          var event_date_long = item["time"];
-          var event_date = moment(event_date_long);
-          var communityName = item.communityName;
-          var event_name = item.name;
-          var event_url = item.eventUrl;
-          if (event_date.isBefore(twoMonthsFromNow)) {
-            var $li = createEventRow(event_name, event_url, communityName, event_date);
-            $('#event-list').append($li);
+        for (var date in data) {
+          var header = $("<dt></dt>");
+          var content = $("<dd></dd>");
+          var content_list = $("<ul></ul>");
+          var hasElement = false;
+          data[date].forEach(function (item, index) {
+            var event_date_long = item["time"];
+            var event_date = moment(event_date_long);
+            var event_date_string = item["dateString"];
+            var communityName = item.communityName;
+            var event_name = item.name;
+            var event_url = item.eventUrl;
+            if (event_date.isBefore(twoMonthsFromNow)) {
+              var $li = createEventRow(event_name, event_url, communityName, event_date_string);
+              content_list.append($li);
+              hasElement = true;
+            }
+          });
+          if(hasElement){
+            header.text(date);
+            content.append(content_list);
+            $("#event-list").append(header);
+            $("#event-list").append(content);
           }
-        });
+        }
       },
       headers: {
         'Access-Control-Allow-Origin': '*'
@@ -25,16 +39,12 @@
   });
 
   function createEventRow(eventName, eventUrl, communityName, eventDate) {
-    return $("<li class='flex-container'>" +
-        "<div class='w-75'>" +
+    return $("<li>" +
+        "<div class='w-100'>" +
         "<a href='" + eventUrl + "' target='_blank'>" +
         eventName +
         "</a>" +
         "</div>" +
-        "<div class='w-25'>" +
-        eventDate.format("DD/MM/YYYY") +
-        "</div>" +
-
         "<div>" +
         communityName +
         "</div>" +
