@@ -12,7 +12,6 @@
           var event_name = item.name;
           var event_url = item.eventUrl;
           if (event_date.isBefore(twoMonthsFromNow)) {
-            console.log(twoMonthsFromNow);
             var $li = createEventRow(event_name, event_url, communityName, event_date);
             $('#event-list').append($li);
           }
@@ -26,14 +25,14 @@
   });
 
   function createEventRow(eventName, eventUrl, communityName, eventDate) {
-    return $("<li>" +
-        "<div>" +
+    return $("<li class='flex-container'>" +
+        "<div class='w-75'>" +
         "<a href='" + eventUrl + "' target='_blank'>" +
         eventName +
         "</a>" +
-        "<span style='float: right'>" +
+        "</div>" +
+        "<div class='w-25'>" +
         eventDate.format("DD/MM/YYYY") +
-        "</span>" +
         "</div>" +
 
         "<div>" +

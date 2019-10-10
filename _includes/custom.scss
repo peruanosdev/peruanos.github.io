@@ -2,7 +2,7 @@
 
 .row {
     display: flex;
-    margin: 0 auto;
+    margin: 0 2rem;
     justify-content: center;
 }
 
@@ -13,6 +13,7 @@
 @media (max-width:760px) {
     .row {
       flex-direction: column;
+      margin: 0;
     }
 }
 
@@ -60,9 +61,17 @@
 
 
 }
+
 .events{
-    li {
-        display: block;
+    @media (max-width: 760px) {
+        li {
+            display: block!important;
+        }
+    }
+    li{
+        margin: 0.25rem auto 0.25rem auto;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -81,8 +90,6 @@
             margin-right: 10px;
         }
     }
-
-
 }
 
 .members-counter span {
@@ -100,4 +107,16 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+@media (min-width: 760px){
+    .w-25 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .w-75 {
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
 }
