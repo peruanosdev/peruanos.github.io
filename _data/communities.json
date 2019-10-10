@@ -90,6 +90,11 @@
     "city": "Lima"
   },
   {
+    "name": "Facebook Developer Circle: Lima",
+    "url": "https://www.facebook.com/groups/DevCLima/",
+    "city": "Lima"
+  },
+  {
     "name": "FemDevs Perú",
     "url": "https://www.facebook.com/FemDevsPeru",
     "city": "Lima"
@@ -97,11 +102,6 @@
   {
     "name": "Firebase Perú",
     "url": "https://www.meetup.com/Firebase-Peru/",
-    "city": "Lima"
-  },
-  {
-    "name": "OpenLab Perú",
-    "url":  "https://www.facebook.com/OpenLabPERU",
     "city": "Lima"
   },
   {
@@ -150,6 +150,11 @@
     "city": "Lima"
   },
   {
+  "name": "Innovua Makerhack", 
+  "url": "https://www.facebook.com/Innovua", 
+  "city": "Lima"
+  },
+  {
     "name": "iOS Dev Perú",
     "url": "https://www.meetup.com/IOS-Dev-Peru/",
     "city": "Lima"
@@ -187,6 +192,11 @@
   {
     "name": "MongoDB Perú",
     "url": "https://www.meetup.com/mongodbperu/",
+    "city": "Lima"
+  },
+  {
+    "name": "OpenLab Perú",
+    "url":  "https://www.facebook.com/OpenLabPERU",
     "city": "Lima"
   },
   {
