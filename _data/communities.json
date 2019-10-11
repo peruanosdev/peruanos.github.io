@@ -150,9 +150,9 @@
     "city": "Lima"
   },
   {
-  "name": "Innovua Makerhack", 
-  "url": "https://www.facebook.com/Innovua", 
-  "city": "Lima"
+    "name": "Innovua Makerhack",
+    "url": "https://www.facebook.com/Innovua",
+    "city": "Lima"
   },
   {
     "name": "iOS Dev Perú",
@@ -196,7 +196,7 @@
   },
   {
     "name": "OpenLab Perú",
-    "url":  "https://www.facebook.com/OpenLabPERU",
+    "url": "https://www.facebook.com/OpenLabPERU",
     "city": "Lima"
   },
   {
@@ -288,6 +288,11 @@
     "name": "GDG Piura",
     "url": "https://www.meetup.com/GDG-Piura/",
     "city": "Piura"
+  },
+  {
+    "name": "OpenTech",
+    "url": "https://www.opentech.pe",
+    "city": "Tingo María"
   },
   {
     "name": "GDG Trujillo",
