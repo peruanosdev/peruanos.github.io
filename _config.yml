@@ -1,3 +1,8 @@
 url: https://peruanos.dev
 title: peruanos.dev
 theme: minima
+
+events:
+  enabled: true
+  label: Proximos Eventos
+
