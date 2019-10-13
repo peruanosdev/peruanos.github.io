@@ -4,7 +4,6 @@
     display: flex;
     margin: 0 2rem;
     justify-content: center;
-    max-height: 100vh;
 }
 
 .column {
@@ -118,7 +117,6 @@
     margin-top: 30px;
     display: flex;
     flex-flow: row wrap;
-    max-height: 15vh;
 
     .contributor {
         width: 39px;
@@ -126,16 +124,54 @@
     }
 }
 @media (min-width: 760px){
+    
   .w-25 {
-    flex: 0 0 25%;
-    max-width: 25%;
+      flex: 0 0 25%;
+      max-width: 25%;
   }
 
   .w-75 {
-    flex: 0 0 75%;
-    max-width: 75%;
+      flex: 0 0 75%;
+      max-width: 75%;
   }
+
+  .row {
+    max-height: 100vh;
+  }
+
+
+  .contributors {
+    max-height: 15vh;
+  }
+
+  .scrollbar {
+    overflow: auto;
+  }
+
+  .scrollbar::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  .scrollbar::-webkit-scrollbar:vertical {
+    width: 6px;
+  }
+
+  .scrollbar::-webkit-scrollbar-button:increment,
+  .scrollbar::-webkit-scrollbar-button {
+    display: none;
+  } 
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 10px;  
+  }
+
 }
+
 .w-100{
   width: 100%;
 }
@@ -186,31 +222,4 @@
         font-size: 0.8em;
     }
 
-}
-
-.scrollbar {
-    margin: 2rem auto;
-    overflow: auto;
-}
-
-.scrollbar::-webkit-scrollbar {
-    -webkit-appearance: none;
-}
-
-.scrollbar::-webkit-scrollbar:vertical {
-    width: 6px;
-}
-
-.scrollbar::-webkit-scrollbar-button:increment,
-.scrollbar::-webkit-scrollbar-button {
-    display: none;
-} 
-
-.scrollbar::-webkit-scrollbar-thumb {
-    background-color: #797979;
-    border-radius: 20px;
-}
-
-.scrollbar::-webkit-scrollbar-track {
-    border-radius: 10px;  
 }
