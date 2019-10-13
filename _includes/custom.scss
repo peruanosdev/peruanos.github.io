@@ -2,7 +2,7 @@
 
 .row {
     display: flex;
-    margin: 0 auto;
+    margin: 0 2rem;
     justify-content: center;
 }
 
@@ -13,6 +13,7 @@
 @media (max-width:760px) {
     .row {
       flex-direction: column;
+      margin: 0;
     }
 }
 
@@ -27,7 +28,7 @@
     }
 }
 
-.communities-list {
+.communities-list, .events{
 
     dt {
         text-transform: uppercase;
@@ -52,6 +53,7 @@
         justify-content: space-between;
         padding: 3px 0;
         border-bottom: 1px solid #efefef;
+        
     }
 
     li:last-of-type {
@@ -59,6 +61,19 @@
     }
 
 
+}
+
+.events{
+    @media (max-width: 760px) {
+        li {
+            display: block!important;
+        }
+    }
+    li{
+        margin: 0.25rem auto 0.25rem auto;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .contribute-button {
@@ -76,8 +91,10 @@
             margin-right: 10px;
         }
     }
+}
 
-
+.members-counter {
+    margin-left: 10px;
 }
 
 .members-counter span {
@@ -105,5 +122,55 @@
     .contributor {
         width: 40px;
         padding: 1px;
+    }
+}
+@media (min-width: 760px){
+  .w-25 {
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+
+  .w-75 {
+    flex: 0 0 75%;
+    max-width: 75%;
+  }
+}
+.w-100{
+  width: 100%;
+}
+
+.title-tooltip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 1em;
+}
+
+.description {
+    font-size: 0.8em;
+}
+
+.date-row { 
+    display: flex;
+    
+}
+
+
+
+.date-marker {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #c4c4c4;
+    margin-right: 10px;
+    width: 40px;
+    margin-top: 10px;
+    
+
+    h1 {
+        margin-bottom: -5px;
+    }
+    small {
+        text-transform: uppercase;
     }
 }

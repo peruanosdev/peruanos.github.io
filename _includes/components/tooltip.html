@@ -1,0 +1,27 @@
+<span id="tooltip-{{ include.index }}" style="display: none">
+  <div class="title title-tooltip">
+      <b>{{ include.community.name }}</b>
+      {% if include.community.group_photo.thumb_link %}
+        <img 
+          src="{{include.community.group_photo.thumb_link}}"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
+      {% endif %}
+  </div>
+  <div class="description">
+      {% assign striped_description = include.community.description | strip_html%}
+      {{ striped_description | truncate: 255 }}
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-{{include.index}}',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-{{ include.index }}")
+  });
+
+</script>

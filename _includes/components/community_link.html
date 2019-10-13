@@ -1,9 +1,0 @@
-{% if site.data.results[include.url] %}
-  <a  id="label-{{ index }}" href="#">
-    {{ include.name }}
-  </a>
-  {% else %}
-    <a   href="{{ include.url }}" target="_blank">
-        {{ include.name }}
-    </a>
-{% endif %}

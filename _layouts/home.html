@@ -9,51 +9,13 @@ layout: default
             {% contributors %}
         </div>
     </div>
+
     <div class="column communities-list">
-        {% assign cities = site.data.communities | group_by:"city" %}
-        {% assign index = 0 %}
-        {% for city in cities | sort: "name" %}
-            <dt>{{ city.name }}</dt>
-            <dd>
-                <ul>
-                {% for community in city.items | sort: "name" %}
-                    <li>
-                        {% include components/community_link.html name=community.name url=community.url %} 
-                        {% include components/community_tooltip.html name=community.name url=community.url label_index= index %} 
-                        {% include components/community_member_count.html url=community.url %}
-                    </li>
-                    {% assign index = index | plus:1 %}
-                {% endfor %}
-                </ul>
-            </dd>
-        {% endfor %}
+        {% include components/communities.html 
+            communities=site.data.info %}
+    </div>
+    <div class="column events w-25">
+        {% include components/events.html 
+            events=site.data.events %}
     </div>
 </div>
-
-<script type="application/javascript">
-
-    $(document).ready(function(){
-
-        var openedTooltip = null;
-
-        {% for communities in site.data.communities %}
-            {% if site.data.results[communities.url] %} 
-                var tooltip_{{forloop.index0}} = new jBox('Tooltip', {
-                    attach: '#label-{{ forloop.index0 }}',
-                    preventDefault: true,
-                    trigger: 'click',
-                    maxWidth: 500,
-                    maxHeight: 400,
-                    onOpen: function(){
-                        if (openedTooltip != null && openedTooltip!==this) {
-                            openedTooltip.close();
-                        }
-                        openedTooltip = this;
-                    },
-                    content: $("#tooltip-{{ forloop.index0 }}")
-                });
-            {% endif %}
-        {% endfor %}
-    });
-
-</script>

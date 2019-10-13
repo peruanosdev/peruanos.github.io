@@ -1,0 +1,28 @@
+ 
+{% assign cities = include.communities | group_by:"city" %}
+{% assign sorted_cities = cities | sort: 'name' %}
+
+{% assign index = 0 %}
+
+{% for city in sorted_cities  %}
+    <dt>{{ city.name }}</dt>
+    <dd>
+        <ul>
+        {% assign communities = city.items | sort: 'name' %}
+        {% for community in communities %} 
+            <li> 
+                <a  id="label-{{ index }}" href="{{community.link}}"> 
+                    {{ community.name | truncate: 30 }} 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/{{community.members}}-miembros-green.svg' 
+                    alt='{{ community.members}} miembros' />
+                </div>
+                {% include components/tooltip.html community=community index=index %}
+            </li>
+            {% assign index = index | plus:1 %}
+        {% endfor %}
+        </ul>
+    </dd>
+{% endfor %}
