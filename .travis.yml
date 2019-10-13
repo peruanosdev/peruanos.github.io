@@ -5,7 +5,7 @@ script:
   - bundle exec rake build
 deploy:
   provider: pages
-  local-dir: ./site
+  local-dir: ./_site
   target-branch: gh-pages
   email: deploy@travis-ci.org
   name: Deployment Bot
