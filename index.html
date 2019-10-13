@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://peruanos.dev/" />
 <meta property="og:site_name" content="peruanos.dev" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"https://peruanos.dev/","name":"peruanos.dev","headline":"Inicio","@context":"https://schema.org"}</script>
+{"@type":"WebSite","headline":"Inicio","url":"https://peruanos.dev/","name":"peruanos.dev","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -333,13 +333,15 @@ table td { border: 1px solid #e8e8e8; }
 
 @media (max-width: 760px) { .events li { display: block !important; } }
 
-.events li { margin: 0.25rem auto 0.25rem auto; display: flex; flex-wrap: wrap; }
+.events li { margin: 0.25rem auto 0.25rem auto; display: flex; flex-direction: column; }
 
 .contribute-button { padding-top: 30px; }
 
 .contribute-button a { display: flex; align-items: center; padding-top: 10px; padding-bottom: 10px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
 
 .contribute-button a svg { margin-right: 10px; }
+
+.members-counter { margin-left: 10px; }
 
 .members-counter span { font-size: 10px; color: #fff; background-color: #3e3e3e; padding: 5px 8px 5px 8px; border-radius: 5px; margin-left: 10px; }
 
@@ -353,6 +355,22 @@ table td { border: 1px solid #e8e8e8; }
   .w-75 { flex: 0 0 75%; max-width: 75%; } }
 
 .w-100 { width: 100%; }
+
+.title-tooltip { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; font-size: 1em; }
+
+.description { font-size: 0.8em; }
+
+.date-row { display: flex; }
+
+.date-marker { padding: 10px; text-align: center; border: 2px solid #c4c4c4; margin-right: 10px; width: 40px; margin-top: 10px; border-radius: 10px; }
+
+.date-marker h1 { margin-bottom: -5px; }
+
+.date-marker small { text-transform: uppercase; }
+
+.event-list a { margin-bottom: 5px; }
+
+.event-list small { color: #666; margin-bottom: 1px; font-size: 0.8em; }
 
     </style>
     <div class="row">
@@ -429,3208 +447,2912 @@ table td { border: 1px solid #e8e8e8; }
   </a>
 </div>
 
-            <div class='contributors'><div class='contributor'>    <a href='https://github.com/joelibaceta' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/864790?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/darksy12' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/33564005?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/07Gond' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/2708687?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/hpneo' title=''>        <img class='User__image' src='https://avatars2.githubusercontent.com/u/611699?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cristianbgp' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/8507974?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/Edwindeza' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/10719043?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/julianvelizc' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/1673410?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cerberodev' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/47544543?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cnahuina' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/22851278?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/danilobrinu' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/1697714?v=4'>    </a></div></div>
+            <div class='contributors'><div class='contributor'>    <a href='https://github.com/joelibaceta' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/864790?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/darksy12' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/33564005?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/07Gond' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/2708687?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/hpneo' title=''>        <img class='User__image' src='https://avatars2.githubusercontent.com/u/611699?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cristianbgp' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/8507974?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/Edwindeza' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/10719043?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/julianvelizc' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/1673410?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cerberodev' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/47544543?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cnahuina' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/22851278?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/danilobrinu' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/1697714?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/paulotijero' title=''>        <img class='User__image' src='https://avatars2.githubusercontent.com/u/28131369?v=4'>    </a></div></div>
         </div>
     </div>
+
     <div class="column communities-list">
-        
-        
-        
+         
 
-        <dt>Arequipa</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-  <a  id="label-0" href="#">
-    GDG Arequipa
-  </a>
-  
 
-                    
-<span id="tooltip-0" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/GDG-Arequipa/" target="_blank">
-          GDG Arequipa
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+
+
+
+
+    <dt>Arequipa</dt>
+    <dd>
+        <ul>
+        
+         
+            <li> 
+                <a  id="label-0" href="https://www.meetup.com/GDG-Arequipa/"> 
+                    GDG Arequipa 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/137-miembros-green.svg' 
+                    alt='137 miembros' />
+                </div>
+                <span id="tooltip-0" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Arequipa</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       GDG Arequipa es un grupo local de desarrolladores interesados en aprender y enseñar sobre los productos y API de Google.  
-Un grupo para compartir ideas y establecer contactos con otros desarrolladores.Un lugar para aprender sobre las tecnologías de Google y las herramientas de desarrollo.Enfocado en desarrolladores y contenido técnico educativo.Abierto y gratuito para todos los interesados.
+Un grupo para compartir ideas y establecer contactos con otros desarrolladores.Un lugar para aprender sobre las tecnologías de Go...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/137-miembros-green.svg' alt='137 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-0',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-0")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-1" href="#">
-    WordPress Perú - Arequipa
-  </a>
-  
-
-                    
-<span id="tooltip-1" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/wpperu-arequipa/" target="_blank">
-          WordPress Perú - Arequipa
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-1" href="https://www.meetup.com/wpperu-arequipa/"> 
+                    WordPress Perú - Arequipa 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/290-miembros-green.svg' 
+                    alt='290 miembros' />
+                </div>
+                <span id="tooltip-1" style="display: none">
+  <div class="title title-tooltip">
+      <b>WordPress Perú - Arequipa</b>
       
-        <a href="https://www.meetup.com/wpperu-arequipa/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/8/c/2/e/thumb_475295886.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/8/c/2/e/thumb_475295886.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Somos un grupo de desarrolladores, diseñadores y editores WordPress que nos unimos para compartir nuestro conocimiento y experiencia, y para reunirnos con otros usuarios de WordPress en la zona. Este WordPress Meetup Arequipa está abierto a todo aquel al que le encante WordPress --- ¡Únete a nosotros!
+  <div class="description">
+      
+      Somos un grupo de desarrolladores, diseñadores y editores WordPress que nos unimos para compartir nuestro conocimiento y experiencia, y para reunirnos con otros usuarios de WordPress en la zona. Este WordPress Meetup Arequipa está abierto a todo aquel ...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/290-miembros-green.svg' alt='290 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-1',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-1")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-            </ul>
-        </dd>
         
+        </ul>
+    </dd>
 
-        <dt>Ica</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-  <a  id="label-2" href="#">
-    GDG Ica
-  </a>
-  
-
-                    
-<span id="tooltip-2" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/GDG-Ica/" target="_blank">
-          GDG Ica
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-        <a href="https://www.meetup.com/GDG-Ica/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/d/3/2/d/thumb_466134061.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+    <dt>Chimbote</dt>
+    <dd>
+        <ul>
+        
+         
+            <li> 
+                <a  id="label-2" href="https://www.meetup.com/GDGChimbote/"> 
+                    GDG Chimbote 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/320-miembros-green.svg' 
+                    alt='320 miembros' />
+                </div>
+                <span id="tooltip-2" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Chimbote</b>
       
   </div>
-  <div class="description truncate">
-      Qué es un GDG? Un Google Developer Group (GDG) es un grupo de y para desarrolladores locales que están interesados en incorporar tecnologías de Google en sus proyectos, los temas que se tratan en el grupo van desde plataformas como Android, Chrome y Cloud hasta APIs de productos como Cast API, Maps API y YouTube API.
-Por qué el GDG Ica? El GDG Ica nace con la misión de hacer más competitivos a los desarrolladores, poniendo en sus manos herramientas de talla mundial y acompañándolos en su adopción y uso. Además, el grupo también es una comunidad donde profesionales de la industria pueden conocerse y compartir su conocimiento entre sí, puede ser en línea pero preferimos cuando es personalmente. El grupo tiene un enfoque técnico, sin embargo no hay un nivel mínimo necesario para formar parte, nuestros asistentes van desde estudiantes de ingeniería de sistemas hasta desarrolladores profesionales de startups o corporativos.
-Los eventos, en la mayoría de casos, son gratuitos. Solamente es necesario registrarse previamente.
+  <div class="description">
+      
+      Somos el primer Grupo de Desarrolladores Google de Chimbote y en el norte del Perú, nuestra intención es difundir las tecnologías Google a todos los que tengan interés, así mismo ir incentivando a mas ciudades a crear sus propios grupos. Nosotros organ...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/58-miembros-green.svg' alt='58 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-2',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-2")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-            </ul>
-        </dd>
         
+        </ul>
+    </dd>
 
-        <dt>Cusco</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-  <a  id="label-3" href="#">
-    GDG Cusco
-  </a>
-  
-
-                    
-<span id="tooltip-3" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/gdgcuscoperu/" target="_blank">
-          GDG Cusco
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+    <dt>Cusco</dt>
+    <dd>
+        <ul>
+        
+         
+            <li> 
+                <a  id="label-3" href="https://www.meetup.com/gdgcuscoperu/"> 
+                    GDG Cusco 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/53-miembros-green.svg' 
+                    alt='53 miembros' />
+                </div>
+                <span id="tooltip-3" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Cusco</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       El GDG Cusco es una comunidad que busca compartir y difundir conocimientos de las tecnologías de Google en las areas de desarrollo de software y web.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/53-miembros-green.svg' alt='53 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-3',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-3")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-4" href="#">
-    WordPress Perú - Cusco
-  </a>
-  
-
-                    
-<span id="tooltip-4" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/wpperu-cusco/" target="_blank">
-          WordPress Perú - Cusco
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-4" href="https://www.meetup.com/wpperu-cusco/"> 
+                    WordPress Perú - Cusco 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/292-miembros-green.svg' 
+                    alt='292 miembros' />
+                </div>
+                <span id="tooltip-4" style="display: none">
+  <div class="title title-tooltip">
+      <b>WordPress Perú - Cusco</b>
       
-        <a href="https://www.meetup.com/wpperu-cusco/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/a/4/2/7/thumb_443082023.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/a/4/2/7/thumb_443082023.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Somos la comunidad de WordPress Perú en Cusco. Reunimos a desarrolladores, diseñadores, emprendedores, marketeros y a toda persona que usa WordPress con la finalidad de compartir conocimientos y experiencias, y conocer a otras personas con los mismos intereses. Esta comunidad está abierta para todos los que amen WordPress.
-Puedes seguirnos en https://www.facebook.com/wpcusco/ y con el hashtag #wpcusco en Facebook.
-También puedes unirte a nuestro grupo de WhatsApp aquí: http://bit.ly/wpcusco
- Y si quieres comunicarte con nosotros, puedes escribirnos a: <a>cusco@wpperu.org</a>
-<br>
-<br>
+  <div class="description">
+      
+      Somos la comunidad de WordPress Perú en Cusco. Reunimos a desarrolladores, diseñadores, emprendedores, marketeros y a toda persona que usa WordPress con la finalidad de compartir conocimientos y experiencias, y conocer a otras personas con los mismos i...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/292-miembros-green.svg' alt='292 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-4',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-4")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-            </ul>
-        </dd>
         
+        </ul>
+    </dd>
 
-        <dt>Chimbote</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-  <a  id="label-5" href="#">
-    GDG Chimbote
-  </a>
-  
-
-                    
-<span id="tooltip-5" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/GDGChimbote/" target="_blank">
-          GDG Chimbote
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-  </div>
-  <div class="description truncate">
-      Somos el primer Grupo de Desarrolladores Google de Chimbote y en el norte del Perú, nuestra intención es difundir las tecnologías Google a todos los que tengan interés, así mismo ir incentivando a mas ciudades a crear sus propios grupos. Nosotros organizamos varios eventos como IO Extended, DevFest, BootCamps, Hackathons y Startup Weekends donde hablamos sobre varias tecnologías como:  Android, Firebase, Google Maps, App Engine, Cloud Platform, entre otros. También fomentamos el empoderamiento de la ciudadania en general en el uso intensivo de las TICS.
-
-Disclaimer: GDG Chimbote is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the GDG program, visit https://developers.google.com/groups/
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/320-miembros-green.svg' alt='320 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-            </ul>
-        </dd>
+    <dt>Ica</dt>
+    <dd>
+        <ul>
         
-
-        <dt>Lima</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-  <a  id="label-6" href="#">
-    Ansible Perú
-  </a>
-  
-
-                    
-<span id="tooltip-6" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Ansible-Peru/" target="_blank">
-          Ansible Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-5" href="https://www.meetup.com/GDG-Ica/"> 
+                    GDG Ica 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/58-miembros-green.svg' 
+                    alt='58 miembros' />
+                </div>
+                <span id="tooltip-5" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Ica</b>
       
-        <a href="https://www.meetup.com/Ansible-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/2/c/9/3/thumb_446171411.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/d/3/2/d/thumb_466134061.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Somos un grupo de Administradores de Sistemas y DevOps a quienes les gusta todo lo que puede hacer Ansible. Deseas aprender mas acerca de Ansible? Ven únete. Ya conoces bien Ansible? Ven comparte tu conocimiento.
-We are a group of Systems Engineers and DevOps folks who want to Ansible all the things. Want to learn more about Ansible? Come join us. Already know Ansible well? Come share your knowledge.
- 
+  <div class="description">
+      
+      Qué es un GDG?&nbsp;Un Google Developer Group (GDG) es un grupo de y para desarrolladores locales que están interesados en incorporar tecnologías de Google en sus proyectos, los temas que se tratan en el grupo van desde plataformas como Android, Chrome...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/867-miembros-green.svg' alt='867 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-5',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-5")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-7" href="#">
-    Agile Perú
-  </a>
-  
+        
+        </ul>
+    </dd>
 
-                    
-<span id="tooltip-7" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/agileperu/" target="_blank">
-          Agile Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+    <dt>Lima</dt>
+    <dd>
+        <ul>
+        
+         
+            <li> 
+                <a  id="label-6" href="https://www.meetup.com/awsperu/"> 
+                    AWS User Group Peru 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1508-miembros-green.svg' 
+                    alt='1508 miembros' />
+                </div>
+                <span id="tooltip-6" style="display: none">
+  <div class="title title-tooltip">
+      <b>AWS User Group Peru</b>
       
-        <a href="https://www.meetup.com/agileperu/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/3/0/8/6/thumb_403572422.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/5/8/2/thumb_440941410.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Agile Perú es la comunidad de seguidores de los frameworks y valores ágiles en el Perú. Está conformado por estudiantes y profesionales interesados en difundir nuevas forma de desarrollar software. El objetivo de la comunidad es difundir el uso de los valores y principios propuestos en el Manifiesto Ágil en nuestro país, fomentando su aplicación, enseñanza y brindando apoyo a los que recién comienzan, a través de nuestras redes sociales, las reuniones mensuales gratuitas y los diversos eventos que organizamos.
+  <div class="description">
+      
+       
+AWS Perú es una comunidad, integrada por Ingenieros, Técnicos y Geeks con experiencia en Administración y Seguridad de Servicios Amazon Web Services (AWS) en alta disponibilidad (IAAS, PAAS SAAS). Nace como una iniciativa por agrupar todos los esfuer...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/4731-miembros-green.svg' alt='4731 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-6',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-6")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-8" href="#">
-    Android Dev Perú
-  </a>
-  
-
-                    
-<span id="tooltip-8" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Android-Dev-Peru/" target="_blank">
-          Android Dev Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-7" href="https://www.meetup.com/agileperu/"> 
+                    Agile Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/4731-miembros-green.svg' 
+                    alt='4731 miembros' />
+                </div>
+                <span id="tooltip-7" style="display: none">
+  <div class="title title-tooltip">
+      <b>Agile Perú</b>
       
-        <a href="https://www.meetup.com/Android-Dev-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/2/b/c/9/thumb_470771209.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/3/0/8/6/thumb_403572422.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
+      Agile Perú es la comunidad de seguidores de los frameworks y valores ágiles en el Perú. Está conformado por estudiantes y profesionales interesados en difundir nuevas forma de desarrollar software. El objetivo de la comunidad es difundir el uso de los ...
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-7',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-7")
+  });
+
+</script>
+            </li>
+            
+         
+            <li> 
+                <a  id="label-8" href="https://www.meetup.com/Android-Dev-Peru/"> 
+                    Android Dev Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/3289-miembros-green.svg' 
+                    alt='3289 miembros' />
+                </div>
+                <span id="tooltip-8" style="display: none">
+  <div class="title title-tooltip">
+      <b>Android Dev Perú</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/2/b/c/9/thumb_470771209.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
+      
+  </div>
+  <div class="description">
+      
       Android Dev Perú, Desarrolladores Android en Lima - Perú 
- Grupo sobre desarrollo de aplicaciones móviles para Android, Android Wear, Android TV, Kotlin, C++ y Java y con apoyo de la comunidad Perú Kotlin User Group https://www.meetup.com/es-ES/Peru-Kotlin-User-Group/
-Facebook: https://www.facebook.com/groups/androidpe/ 
-FanPage: https://www.facebook.com/androiddevpe
-Twitter : https://twitter.com/androiddevperu
-Github: https://github.com/Android-Dev-Peru  Meetup : http://www.meetup.com/es-ES/Android-Dev-Peru/  Medium : https://medium.com/@androiddevperu 
- #android #tips #mobile #androidstudio #fragments #ndk #sdk #kotlin #java
+ Grupo sobre desarrollo de aplicaciones móviles para Android, Android Wear, Android TV, Kotlin, C++ y Java y con apoyo de la comunidad Perú Kotlin User Group https://www.meetup.com/es-ES/Peru-Ko...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/3289-miembros-green.svg' alt='3289 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-8',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-8")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-9" href="#">
-    AWS User Group Peru
-  </a>
-  
-
-                    
-<span id="tooltip-9" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/awsperu/" target="_blank">
-          AWS User Group Peru
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-9" href="https://www.meetup.com/Ansible-Peru/"> 
+                    Ansible Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/867-miembros-green.svg' 
+                    alt='867 miembros' />
+                </div>
+                <span id="tooltip-9" style="display: none">
+  <div class="title title-tooltip">
+      <b>Ansible Perú</b>
       
-        <a href="https://www.meetup.com/awsperu/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/5/8/2/thumb_440941410.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/2/c/9/3/thumb_446171411.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      AWS Perú es una comunidad, integrada por Ingenieros, Técnicos y Geeks con experiencia en Administración y Seguridad de Servicios Amazon Web Services (AWS) en alta disponibilidad (IAAS, PAAS SAAS). Nace como una iniciativa por agrupar todos los esfuerzos realizados en el área de cloud en el país. Te estamos esperando <br>
+  <div class="description">
+      
+      Somos un grupo de Administradores de Sistemas y DevOps a quienes les gusta todo lo que puede hacer Ansible. Deseas aprender mas acerca de Ansible? Ven únete. Ya conoces bien Ansible? Ven comparte tu conocimiento.
+We are a group of Systems Engineers and...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1508-miembros-green.svg' alt='1508 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-9',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-9")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-10" href="#">
-    Cloud Native Computing Perú
-  </a>
-  
-
-                    
-<span id="tooltip-10" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/es/Cloud-Native-Computing-Peru/" target="_blank">
-          Cloud Native Computing Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-10" href="https://www.meetup.com/Cloud-Native-Computing-Peru/"> 
+                    Cloud Native Computing Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/712-miembros-green.svg' 
+                    alt='712 miembros' />
+                </div>
+                <span id="tooltip-10" style="display: none">
+  <div class="title title-tooltip">
+      <b>Cloud Native Computing Perú</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Grupo para los interesados en Cloud Native Application/Infrastrustructure. En este grupo estaremos sobre diversos proyectos alojados por la Cloud Native Computing Foundation, como Kubernetes, Prometheus por mencionar algunos de ellos.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/711-miembros-green.svg' alt='711 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-10',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-10")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-11" href="#">
-    Comunidad MS Azure, Office 365 y Power BI Perú
-  </a>
-  
-
-                    
-<span id="tooltip-11" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/MSAzure-O365-PowerBI-Latam/" target="_blank">
-          Comunidad MS Azure, Office 365 y Power BI Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-11" href="https://www.meetup.com/MSAzure-O365-PowerBI-Latam/"> 
+                    Comunidad MS Azure, Office ... 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1352-miembros-green.svg' 
+                    alt='1352 miembros' />
+                </div>
+                <span id="tooltip-11" style="display: none">
+  <div class="title title-tooltip">
+      <b>Comunidad MS Azure, Office 365 y Power BI Perú</b>
       
   </div>
-  <div class="description truncate">
-      Este grupo está dirigido hacia todos los entusiastas y especialistas en los diferentes servicios de la plataforma de Microsoft Azure, Office 365 y Power BI, el objetivo es el de poder conocer los aspectos técnicos y en especial como los productos dentro de cada plataforma brindan soluciones a requerimientos de negocios, están invitados tanto IT pros, developers, information workers, etc. Esta es una comunidad abierta y no gestionada por Microsoft.
+  <div class="description">
+      
+      Este grupo está dirigido hacia todos los entusiastas y especialistas en los diferentes servicios de la plataforma de Microsoft Azure, Office 365 y Power BI, el objetivo es el de poder conocer los aspectos técnicos y en especial como los productos dentr...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1353-miembros-green.svg' alt='1353 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-11',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-11")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-12" href="#">
-    Data Science Lima
-  </a>
-  
-
-                    
-<span id="tooltip-12" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Data-Science-Lima/" target="_blank">
-          Data Science Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-12" href="https://www.meetup.com/Data-Science-Lima/"> 
+                    Data Science Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1801-miembros-green.svg' 
+                    alt='1801 miembros' />
+                </div>
+                <span id="tooltip-12" style="display: none">
+  <div class="title title-tooltip">
+      <b>Data Science Lima</b>
       
-        <a href="https://www.meetup.com/Data-Science-Lima/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/e/0/5/a/thumb_450957434.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/e/0/5/a/thumb_450957434.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Comunidad sobre ciencia de datos, minería de datos y aprendizaje de maquina (machine learning) . Todos están invitados desde personas que solo están interesados en la practica como en la parte teórica.
+  <div class="description">
+      
+      Comunidad sobre ciencia de datos, minería de datos y aprendizaje de maquina (machine learning)&nbsp;. Todos están invitados desde personas que solo están interesados en la practica como en la parte teórica.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1801-miembros-green.svg' alt='1801 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-12',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-12")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-13" href="#">
-    DevOps Perú
-  </a>
-  
-
-                    
-<span id="tooltip-13" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/DevOps-Peru/" target="_blank">
-          DevOps Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-13" href="https://www.meetup.com/DevOps-Peru/"> 
+                    DevOps Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2104-miembros-green.svg' 
+                    alt='2104 miembros' />
+                </div>
+                <span id="tooltip-13" style="display: none">
+  <div class="title title-tooltip">
+      <b>DevOps Perú</b>
       
-        <a href="https://www.meetup.com/DevOps-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/4/e/thumb_463200078.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/4/e/thumb_463200078.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      DevOps apoya el desarrollo ágil y fomenta la comunicación entre el equipo de desarrollo y el equipo de operaciones. DevOps esta enfocado en el resultado de producto entregado y funcionando. DevOps usa practicas agiles como la integración continua, despliegue continuo, testing automatizado entre otros.
-Los invitamos a participar en este grupo donde podremos encontrar información, noticias, discusiones y podamos compartir experiencias. También los invitamos a las reuniones mensuales que vamos a tener a partir del mes de octubre, por ultimo tambien existe un espacio en slack para los que esten interesados:
-http://devopsperu.slack.com/
+  <div class="description">
+      
+      DevOps apoya el desarrollo ágil y fomenta la comunicación entre el equipo de desarrollo y el equipo de operaciones. DevOps esta enfocado en el resultado de producto entregado y funcionando. DevOps usa practicas agiles como la integración continua, desp...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2104-miembros-green.svg' alt='2104 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-13',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-13")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-14" href="#">
-    DigitalOcean Lima
-  </a>
-  
-
-                    
-<span id="tooltip-14" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/DigitalOceanLima/" target="_blank">
-          DigitalOcean Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-14" href="https://www.meetup.com/DigitalOceanLima/"> 
+                    DigitalOcean Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2303-miembros-green.svg' 
+                    alt='2303 miembros' />
+                </div>
+                <span id="tooltip-14" style="display: none">
+  <div class="title title-tooltip">
+      <b>DigitalOcean Lima</b>
       
-        <a href="https://www.meetup.com/DigitalOceanLima/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/8/1/1/2/thumb_456153042.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/8/1/1/2/thumb_456153042.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Meet software developers of all skill levels to share resources, learn, and form discussions around cloud and devops topics including configuration management, containers, databases, monitoring, virtualization, scalability, performance, and more.
-This meetup is for developers, by developers — get involved by applying to speak or help organize an upcoming meetup.
-Join the DigitalOcean Community to learn more, and please read our Events Code of Conduct.
-DigitalOcean is the world’s fastest growing cloud computing platform built for developers. Our mission is simple: we’re passionate about making complex infrastructure simple and delighting our customers with a seamless experience that brings them joy. New users can easily deploy a blazing fast cloud server with an intuitive control panel interface, or on a larger scale with the company's straightforward API.
+This ...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2303-miembros-green.svg' alt='2303 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-14',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-14")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-15" href="#">
-    Docker Lima
-  </a>
-  
-
-                    
-<span id="tooltip-15" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Docker-Lima/" target="_blank">
-          Docker Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-15" href="https://www.meetup.com/Docker-Lima/"> 
+                    Docker Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2911-miembros-green.svg' 
+                    alt='2911 miembros' />
+                </div>
+                <span id="tooltip-15" style="display: none">
+  <div class="title title-tooltip">
+      <b>Docker Lima</b>
       
-        <a href="https://www.meetup.com/Docker-Lima/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/6/d/4/a/thumb_463407978.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/6/d/4/a/thumb_463407978.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Pasos para unirse al canal de Slack:
-• Ingresar email al link https://dockerlimaslackin.herokuapp.com/
-• Revisar tu bandeja del email ingresado y aceptar la invitación.
-• Probar accediendo https://dockerlima.slack.com
-Learn more about the Docker Community at https://www.docker.com/docker-community
-<br>
+• Ingresar email al link&nbsp;https://dockerlimaslackin.herokuapp.com/
+• Revisar tu&nbsp;bandeja&nbsp;del email ingresado y aceptar la invitación.
+• Probar accediendo&nbsp;https://dockerlima.slack.com
+Learn more abo...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2911-miembros-green.svg' alt='2911 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-15',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-15")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-16" href="#">
-    Drupal Lima
-  </a>
-  
-
-                    
-<span id="tooltip-16" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Drupal-Lima/" target="_blank">
-          Drupal Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-16" href="https://www.meetup.com/Drupal-Lima/"> 
+                    Drupal Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/272-miembros-green.svg' 
+                    alt='272 miembros' />
+                </div>
+                <span id="tooltip-16" style="display: none">
+  <div class="title title-tooltip">
+      <b>Drupal Lima</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Comunidad de Drupal en Lima
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/272-miembros-green.svg' alt='272 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-16',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-16")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-17" href="#">
-    E-Commerce Lima
-  </a>
-  
-
-                    
-<span id="tooltip-17" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/e-commerce-lima/" target="_blank">
-          E-Commerce Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-17" href="https://www.meetup.com/e-commerce-lima/"> 
+                    E-Commerce Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1238-miembros-green.svg' 
+                    alt='1238 miembros' />
+                </div>
+                <span id="tooltip-17" style="display: none">
+  <div class="title title-tooltip">
+      <b>E-Commerce Lima</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Comunidad de profesionales interesados en promover y potenciar el desarrollo de proyectos e-commerce.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1238-miembros-green.svg' alt='1238 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-17',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-17")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-    <a   href="https://www.facebook.com/groups/DevCLima/" target="_blank">
-        Facebook Developer Circle: Lima
-    </a>
-
-
-                    
-
-                    
-
-                </li>
-                
-            
-                <li>
-                    
-    <a   href="https://www.facebook.com/FemDevsPeru" target="_blank">
-        FemDevs Perú
-    </a>
-
-
-                    
-
-                    
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-20" href="#">
-    Firebase Perú
-  </a>
-  
-
-                    
-<span id="tooltip-20" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Firebase-Peru/" target="_blank">
-          Firebase Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-18" href="https://www.meetup.com/Firebase-Peru/"> 
+                    Firebase Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/833-miembros-green.svg' 
+                    alt='833 miembros' />
+                </div>
+                <span id="tooltip-18" style="display: none">
+  <div class="title title-tooltip">
+      <b>Firebase Perú</b>
       
-        <a href="https://www.meetup.com/Firebase-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/1/0/d/e/thumb_475984318.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/1/0/d/e/thumb_475984318.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Entusiastas con la tecnología de Firebase y desarrolladores entusiasmados
-Fb: https://www.facebook.com/groups/FirebasePeru
-Twitter: https://twitter.com/FirebasePeru
+Fb:&nbsp;https://www.facebook.com/groups/FirebasePeru
+Twitter:&nbsp;https://twitter.com/FirebasePeru
 Github : https://github.com/FirebasePeru
-Meetup : https://www.meetup.com/Firebase-Peru/
+Meetup : https://www.meetup.com/Fire...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/833-miembros-green.svg' alt='833 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-18',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-18")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-21" href="#">
-    Flutter Perú
-  </a>
-  
-
-                    
-<span id="tooltip-21" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Flutter-Peru/" target="_blank">
-          Flutter Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-19" href="https://www.meetup.com/Flutter-Peru/"> 
+                    Flutter Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1360-miembros-green.svg' 
+                    alt='1360 miembros' />
+                </div>
+                <span id="tooltip-19" style="display: none">
+  <div class="title title-tooltip">
+      <b>Flutter Perú</b>
       
-        <a href="https://www.meetup.com/Flutter-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/d/2/5/b/thumb_473573851.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/d/2/5/b/thumb_473573851.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Este grupo es para personas apasionadas en el desarrollo de aplicaciones móviles que estén interesadas en aprender y compartir acerca de Flutter.
-Iniciamos este grupo para mostrar este gran Framework de Google para poder crear aplicaciones multiplataforma en tiempo record.
-Facebook Group: https://www.facebook.com/groups/flutterperu...
-Síguenos en Twitter: https://twitter.com/FlutterPeru
+Iniciamos este grupo para mostrar este gran Framework de Google para poder crear aplicaciones multiplatafo...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1360-miembros-green.svg' alt='1360 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-19',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-19")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-22" href="#">
-    Frontend Perú
-  </a>
-  
-
-                    
-<span id="tooltip-22" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Frontend-Peru/" target="_blank">
-          Frontend Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-20" href="https://www.meetup.com/Frontend-Peru/"> 
+                    Frontend Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1150-miembros-green.svg' 
+                    alt='1150 miembros' />
+                </div>
+                <span id="tooltip-20" style="display: none">
+  <div class="title title-tooltip">
+      <b>Frontend Perú</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Fomentamos el conocimiento de tecnologías de desarrollo. Nos enfocamos en la creación de interfaces de usuario, Desarrollo Javascript y a la investigación de todo lo alrededor de las tecnologías Frontend.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1150-miembros-green.svg' alt='1150 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-20',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-20")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-    <a   href="https://www.facebook.com/groups/igdaperu/" target="_blank">
-        Game Devs Perú
-    </a>
-
-
-                    
-
-                    
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-24" href="#">
-    GDG Lima
-  </a>
-  
-
-                    
-<span id="tooltip-24" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/gdglima/" target="_blank">
-          GDG Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-21" href="https://www.meetup.com/Google-Cloud-Developer-Community-Lima/"> 
+                    GDG Cloud Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1399-miembros-green.svg' 
+                    alt='1399 miembros' />
+                </div>
+                <span id="tooltip-21" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Cloud Lima</b>
       
   </div>
-  <div class="description truncate">
-      El Google Developer Group - GDG Lima es una comunidad que investiga, comparte y difunde tecnología Google en las áreas de desarrollo de software basado en Cloud, Mobile y Web; tales como Google Apps API, Apps Script, App Engine, GWT, HTML5, API Maps, entre otras tecnologías. 
-Si te interesa el desarrollo de sofware utilizando tecnologías de Google , este es el lugar indicado.
+  <div class="description">
+      
+      Somos un grupo de personas interesadas en aprender, generar y compartir conocimiento relativo a los servicios de Google Cloud Platform y las buenas prácticas propias del desarrollo de software.
+Disclaimer: Google Cloud Developer Community Lima is an in...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/4194-miembros-green.svg' alt='4194 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-21',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-21")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-25" href="#">
-    GDG Open
-  </a>
-  
-
-                    
-<span id="tooltip-25" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/GDG-Open/" target="_blank">
-          GDG Open
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-        <a href="https://www.meetup.com/GDG-Open/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/4/b/8/2/thumb_482359330.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+         
+            <li> 
+                <a  id="label-22" href="https://www.meetup.com/gdglima/"> 
+                    GDG Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/4194-miembros-green.svg' 
+                    alt='4194 miembros' />
+                </div>
+                <span id="tooltip-22" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Lima</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
+      El Google Developer Group - GDG Lima es una comunidad que investiga, comparte y difunde tecnología Google en las áreas de desarrollo de software basado en Cloud, Mobile y Web; tales como Google Apps API, Apps Script, App Engine, GWT, HTML5, API Maps, e...
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-22',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-22")
+  });
+
+</script>
+            </li>
+            
+         
+            <li> 
+                <a  id="label-23" href="https://www.meetup.com/GDG-Open/"> 
+                    GDG Open 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2826-miembros-green.svg' 
+                    alt='2826 miembros' />
+                </div>
+                <span id="tooltip-23" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Open</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/4/b/8/2/thumb_482359330.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
+      
+  </div>
+  <div class="description">
+      
       El GDG Open es un espacio abierto para compartir y aprender sobre diferentes tecnologías móvil, cloud y web.
 Si te interesa asistir siguenos, si quieres compartir algo en nuestro próximo meetup escribenos.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2825-miembros-green.svg' alt='2825 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-23',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-23")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-26" href="#">
-    Google Cloud Developer Community Lima
-  </a>
-  
-
-                    
-<span id="tooltip-26" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Google-Cloud-Developer-Community-Lima/" target="_blank">
-          Google Cloud Developer Community Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-24" href="https://www.meetup.com/Golang-Peru/"> 
+                    GolangLima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/937-miembros-green.svg' 
+                    alt='937 miembros' />
+                </div>
+                <span id="tooltip-24" style="display: none">
+  <div class="title title-tooltip">
+      <b>GolangLima</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/5/7/6/2/thumb_452782370.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Somos un grupo de personas interesadas en aprender, generar y compartir conocimiento relativo a los servicios de Google Cloud Platform y las buenas prácticas propias del desarrollo de software.
-Disclaimer: Google Cloud Developer Community Lima is an independent group; our activities and the opinions expressed here should in no way be linked to Google, the corporation. To learn more about the Google Cloud Platform Community program, visit https://cloud.google.com/community/
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1399-miembros-green.svg' alt='1399 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-27" href="#">
-    GolangLima
-  </a>
-  
-
-                    
-<span id="tooltip-27" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Golang-Peru/" target="_blank">
-          GolangLima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+  <div class="description">
       
-        <a href="https://www.meetup.com/Golang-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/5/7/6/2/thumb_452782370.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
-      
-  </div>
-  <div class="description truncate">
       Come for drinks, share stories, and create awesome things using golang!
-Go is an open source project developed by a team at Google and many contributors from the open source community. 
-Go is distributed under a BSD-style license.
-Go was born out of frustration with existing languages and environments for systems programming. Programming had become too difficult and the choice of languages was partly to blame. One had to choose either efficient compilation, efficient execution, or ease of programming; all three were not available in the same mainstream language. Programmers who could were choosing ease over safety and efficiency by moving to dynamically typed languages such as Python and JavaScript rather than C++ or, to a lesser extent, Java. 
-Go is an attempt to combine the ease of programming of an interpreted, dynamically typed language with the efficiency and safety of a statically typed, compiled language. It also aims to be modern, with support for networked and multicore computing. Finally, it is intended to be fast: it should take at most a few seconds to build a large executable on a single computer. To meet these goals required addressing a number of linguistic issues: an expressive but lightweight type system; concurrency and garbage collection; rigid dependency specification; and so on. These cannot be addressed well by libraries or tools; a new language was called for.
-The article Go at Google discusses the background and motivation behind the design of the Go language, as well as providing more detail about many of the answers presented in this FAQ.
-Reference:  
-https://golang.org/doc/faq#What_is_the_purpose_of_the_project
+Go is an open source project developed by a team at&nbsp;Google&nbsp;and many&nbsp;contributors&nbsp;from the open source community. 
+Go is distributed under a&nbsp;BSD-style licen...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/937-miembros-green.svg' alt='937 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-24',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-24")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-28" href="#">
-    Hablemos de Testing
-  </a>
-  
-
-                    
-<span id="tooltip-28" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/hablemos-de-testing/" target="_blank">
-          Hablemos de Testing
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-25" href="https://www.meetup.com/hablemos-de-testing/"> 
+                    Hablemos de Testing 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2041-miembros-green.svg' 
+                    alt='2041 miembros' />
+                </div>
+                <span id="tooltip-25" style="display: none">
+  <div class="title title-tooltip">
+      <b>Hablemos de Testing</b>
       
-        <a href="https://www.meetup.com/hablemos-de-testing/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/6/7/9/6/thumb_461906518.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/6/7/9/6/thumb_461906518.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Grupo de interés para tod@s los apasionad@s en software testing, herramientas y metodologías
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2041-miembros-green.svg' alt='2041 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-25',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-25")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-29" href="#">
-    Hacker Dome
-  </a>
-  
-
-                    
-<span id="tooltip-29" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Hacker-Dome/" target="_blank">
-          Hacker Dome
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-26" href="https://www.meetup.com/Hacker-Dome/"> 
+                    Hacker Dome 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/364-miembros-green.svg' 
+                    alt='364 miembros' />
+                </div>
+                <span id="tooltip-26" style="display: none">
+  <div class="title title-tooltip">
+      <b>Hacker Dome</b>
       
   </div>
-  <div class="description truncate">
-      This is a group for anyone interested in learning with practical workshops any programming language as well as app development ,server management and others. All skill levels are welcome but we will focus on the entry and mid level .Looking forward to learn with everybody.”
+  <div class="description">
+      
+      This is a group for anyone interested in learning with practical workshops any programming language as well as app development ,server management and others. All skill levels are welcome but we will focus on the entry and mid level .Looking forward to ...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/364-miembros-green.svg' alt='364 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-26',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-26")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-    <a   href="https://www.facebook.com/Innovua" target="_blank">
-        Innovua Makerhack
-    </a>
-
-
-                    
-
-                    
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-31" href="#">
-    iOS Dev Perú
-  </a>
-  
-
-                    
-<span id="tooltip-31" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/IOS-Dev-Peru/" target="_blank">
-          iOS Dev Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-27" href="https://www.meetup.com/Lima-Virtual-Reality-VR/"> 
+                    Lima Virtual Reality - VR 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1571-miembros-green.svg' 
+                    alt='1571 miembros' />
+                </div>
+                <span id="tooltip-27" style="display: none">
+  <div class="title title-tooltip">
+      <b>Lima Virtual Reality - VR</b>
       
-        <a href="https://www.meetup.com/IOS-Dev-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/c/5/b/thumb_455403163.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/7/6/8/d/thumb_454350349.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Comunidad de ingenieros y desarrolladores de aplicaciones iOS.
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1190-miembros-green.svg' alt='1190 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-32" href="#">
-    LimaJS
-  </a>
-  
-
-                    
-<span id="tooltip-32" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/LimaJS/" target="_blank">
-          LimaJS
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+  <div class="description">
       
-        <a href="https://www.meetup.com/LimaJS/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/9/1/b/7/thumb_474157303.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
-      
-  </div>
-  <div class="description truncate">
-      Comunidad de usuarios de JavaScript en Lima, Perú.
- Tratamos de reunirnos dos veces al mes: el tercer jueves de cada mes nos juntamos de 7pm a 9:30pm para escuchar charlas sobre JavaScript y temas relacionados; y un sábado al mes nos juntamos todo el día (de 10am a 5pm) para hacer talleres de NodeSchool acompañadxs de mentorxs. 
- Estas reuniones son gratuitas, libres y todos son bienvenidos. No se requiere invitación o nivel de conocimiento. 
-Más info acá: https://limajs.org/
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2699-miembros-green.svg' alt='2699 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-33" href="#">
-    Lima NodeJS Meetup
-  </a>
-  
-
-                    
-<span id="tooltip-33" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Lima-NodeJS-Meetup/" target="_blank">
-          Lima NodeJS Meetup
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-        <a href="https://www.meetup.com/Lima-NodeJS-Meetup/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/d/7/d/thumb_484923453.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
-      
-  </div>
-  <div class="description truncate">
-      Llamando a todos los desarrolladores de software de Javascript. Reúnase con sus contemporáneos, aprender acerca de nuevas tecnologías y divertirse en nuestros eventos dedicados a NodeJS
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2276-miembros-green.svg' alt='2276 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-34" href="#">
-    Lima Virtual Reality - VR
-  </a>
-  
-
-                    
-<span id="tooltip-34" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Lima-Virtual-Reality-VR/" target="_blank">
-          Lima Virtual Reality - VR
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-        <a href="https://www.meetup.com/Lima-Virtual-Reality-VR/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/7/6/8/d/thumb_454350349.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
-      
-  </div>
-  <div class="description truncate">
       Somos una comunidad de entusiastas de la Realidad Virtual aprendemos y experimentamos con plataformas de desarrollo, juegos, contenido y arte adaptada a nuestra visión desde Perú.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1571-miembros-green.svg' alt='1571 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-27',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-27")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-35" href="#">
-    Makers Lima
-  </a>
-  
-
-                    
-<span id="tooltip-35" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Makers-Lima/" target="_blank">
-          Makers Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-28" href="https://www.meetup.com/LimaJS/"> 
+                    LimaJS 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2699-miembros-green.svg' 
+                    alt='2699 miembros' />
+                </div>
+                <span id="tooltip-28" style="display: none">
+  <div class="title title-tooltip">
+      <b>LimaJS</b>
       
-        <a href="https://www.meetup.com/Makers-Lima/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/6/e/7/e/thumb_455488286.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/9/1/b/7/thumb_474157303.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Este Meet-up es un espacio creado para inventores, creadores, hacedores, emprendedores, artistas, programadores y todas las personas interesadas en la cultura Maker en Perú. Deseamos que dentro de Makers Lima ocurra intercambio, unión y colaboración de ideas entre los participantes. 
-Todos los proyectos pueden convertirse en emprendimientos. Si tienes un proyecto que desees mostrar, ¡hazlo con la comunidad Makers Lima!
-Inscribe tu proyecto llenando el formulario.
+  <div class="description">
+      
+      Comunidad de usuarios de JavaScript en Lima, Perú.
+ Tratamos de reunirnos dos veces al mes: el tercer jueves de cada mes nos juntamos de 7pm a 9:30pm para escuchar charlas sobre JavaScript y temas relacionados; y un sábado al mes nos juntamos todo el d...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/994-miembros-green.svg' alt='994 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-28',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-28")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-36" href="#">
-    Meetup de PHP en Lima
-  </a>
-  
-
-                    
-<span id="tooltip-36" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Meetup-de-PHP-en-Lima/" target="_blank">
-          Meetup de PHP en Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-29" href="https://www.meetup.com/Makers-Lima/"> 
+                    Makers Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/994-miembros-green.svg' 
+                    alt='994 miembros' />
+                </div>
+                <span id="tooltip-29" style="display: none">
+  <div class="title title-tooltip">
+      <b>Makers Lima</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/6/e/7/e/thumb_455488286.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Los Meetups de PHP en Lima son eventos con pequeñas charlas que tienen como objetivo difundir el uso de PHP y mejorar las competencias de los participantes, porque consideramos que es importante que nuestra comunidad se conozca para ser más unida y lograr mayores objetivos. 
-Temas como funcionalidad x de tal framework, nuevas versiones de PHP, optimización de procedimientos de desarrollo, o temas que desbordan un poco como combinación de PHP con librerías JS, etc, son el tipo de charlas que podrán encontrar en nuestros Meetups. 
-Recomendamos a los participantes revisar los temas de cada meetup antes de inscribirse, para asegurarse de que tiene el nivel necesario para un mejor entendimiento. Nuestros eventos suelen ser pequeños para no requerir locales exageradamente grandes. 
-Nacido del grupo de organizadores de los PHPDay Perú desde el 2017 y de un sobreviviente del grupo PHP Perú del 2008, no tenemos objetivos de lucro pero buscamos sostenibilidad, cobrando un fee de entrada mínimo para cubrir los gastos de impresión de afiches, stickers, refrescos, etc, siempre mejorando la calidad de nuestros eventos.
+  <div class="description">
+      
+      Este Meet-up es un espacio creado para inventores, creadores, hacedores, emprendedores, artistas, programadores y todas las personas interesadas en la cultura Maker en Perú. Deseamos que dentro de Makers Lima ocurra intercambio, unión y colaboración de...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/498-miembros-green.svg' alt='498 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-29',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-29")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-37" href="#">
-    Microsoft User Group Perú
-  </a>
-  
-
-                    
-<span id="tooltip-37" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/msperu/" target="_blank">
-          Microsoft User Group Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-30" href="https://www.meetup.com/Meetup-de-PHP-en-Lima/"> 
+                    Meetup de PHP en Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/498-miembros-green.svg' 
+                    alt='498 miembros' />
+                </div>
+                <span id="tooltip-30" style="display: none">
+  <div class="title title-tooltip">
+      <b>Meetup de PHP en Lima</b>
       
   </div>
-  <div class="description truncate">
-      La comunidad Microsoft User Group Perú, se enfoca en el aprendizaje y el intercambio de información sobre el movimiento Microsoft (Infraestructura,DevOps, Dev, Cloud, DBA) & Open Source en Azure - cultura, prácticas y herramientas.
-Damos la bienvenida a los profesionales técnicos, desarrolladores, startups y estudiantes. 
-
-Involucrarse:
-Dar una charla!
-Tenemos una lista de ideas, si usted quiere compartir. 
-Nos patrocinas! ¿Su empresa quiere darse una vuelta? Tenemos opciones de patrocinio flexibles que le dan calidad de exposición.  
-Unirse a la lista de correo! Regístrese para obtener el chat con otras personas apasionadas.
+  <div class="description">
+      
+      Los Meetups de PHP en Lima son eventos con pequeñas charlas que tienen como objetivo difundir el uso de PHP y mejorar las competencias de los participantes, porque consideramos que es importante que nuestra comunidad se conozca para ser más unida y log...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/7453-miembros-green.svg' alt='7453 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-30',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-30")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-38" href="#">
-    MongoDB Perú
-  </a>
-  
-
-                    
-<span id="tooltip-38" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/mongodbperu/" target="_blank">
-          MongoDB Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-        <a href="https://www.meetup.com/mongodbperu/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/8/9/0/a/thumb_254615082.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+         
+            <li> 
+                <a  id="label-31" href="https://www.meetup.com/msperu/"> 
+                    Microsoft User Group Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/7453-miembros-green.svg' 
+                    alt='7453 miembros' />
+                </div>
+                <span id="tooltip-31" style="display: none">
+  <div class="title title-tooltip">
+      <b>Microsoft User Group Perú</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
+      La comunidad Microsoft User Group Perú, se enfoca en&nbsp;el aprendizaje y el intercambio de información sobre el movimiento Microsoft (Infraestructura,DevOps, Dev, Cloud, DBA) &amp; Open Source en Azure - cultura, prácticas y herramientas.
+Damos la bi...
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-31',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-31")
+  });
+
+</script>
+            </li>
+            
+         
+            <li> 
+                <a  id="label-32" href="https://www.meetup.com/mongodbperu/"> 
+                    MongoDB Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1528-miembros-green.svg' 
+                    alt='1528 miembros' />
+                </div>
+                <span id="tooltip-32" style="display: none">
+  <div class="title title-tooltip">
+      <b>MongoDB Perú</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/8/9/0/a/thumb_254615082.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
+      
+  </div>
+  <div class="description">
+      
       Éste es el Meetup Group para la comunidad de usuarios de MongoDB en el Perú.
-MongoDB, nombre que proviene de "humongous" ("descomunal" en inglés). Aquí se abordará casi todo relacionado con el banco de datos NoSQL MongoDB: instalación, exploración, desarrollo, mantenimiento, etc.
-Podemos encontrarnos en los siguientes sitios:
-
-https://bit.ly/mongodbperu (Lista de correos)
-https://facebook.com/mongodbperu
-https://twitter.com/mongodbperu
-https://plus.google.com/communities/111761925906849299746
+MongoDB, nombre que proviene de "humongous" ("descomunal" en inglés). Aquí se abordará casi todo relacionado con el banco de datos NoSQL MongoDB: instalación, exploración, des...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1528-miembros-green.svg' alt='1528 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-32',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-32")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-    <a   href="https://www.facebook.com/OpenLabPERU" target="_blank">
-        OpenLab Perú
-    </a>
-
-
-                    
-
-                    
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-40" href="#">
-    Openstack Perú
-  </a>
-  
-
-                    
-<span id="tooltip-40" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Openstack-Peru/" target="_blank">
-          Openstack Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-33" href="https://www.meetup.com/Nodejs-Lima/"> 
+                    Node.js Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2276-miembros-green.svg' 
+                    alt='2276 miembros' />
+                </div>
+                <span id="tooltip-33" style="display: none">
+  <div class="title title-tooltip">
+      <b>Node.js Lima</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/d/7/d/thumb_484923453.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
+      Llamando a todos los desarrolladores de software de Javascript. Reúnase con sus contemporáneos, aprender acerca de nuevas tecnologías y divertirse en nuestros eventos dedicados a NodeJS
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-33',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-33")
+  });
+
+</script>
+            </li>
+            
+         
+            <li> 
+                <a  id="label-34" href="https://www.meetup.com/Openstack-Peru/"> 
+                    Openstack Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/528-miembros-green.svg' 
+                    alt='528 miembros' />
+                </div>
+                <span id="tooltip-34" style="display: none">
+  <div class="title title-tooltip">
+      <b>Openstack Perú</b>
+      
+  </div>
+  <div class="description">
+      
       Todos los amantes de la tecnologíaTodos los interesados en Software Libre
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/528-miembros-green.svg' alt='528 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-34',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-34")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-41" href="#">
-    Perú Java User Group
-  </a>
-  
-
-                    
-<span id="tooltip-41" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Peru-Java-User-Group/" target="_blank">
-          Perú Java User Group
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-35" href="https://www.meetup.com/PeruNetDevelopment/"> 
+                    Perú .NET Development 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2504-miembros-green.svg' 
+                    alt='2504 miembros' />
+                </div>
+                <span id="tooltip-35" style="display: none">
+  <div class="title title-tooltip">
+      <b>Perú .NET Development</b>
       
   </div>
-  <div class="description truncate">
-      Comunidad de Java que busca compartir todo lo relacionado al lenguaje y a su ecosistema.
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2383-miembros-green.svg' alt='2383 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-42" href="#">
-    Perú Kotlin User Group
-  </a>
-  
-
-                    
-<span id="tooltip-42" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Peru-Kotlin-User-Group/" target="_blank">
-          Perú Kotlin User Group
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+  <div class="description">
       
-        <a href="https://www.meetup.com/Peru-Kotlin-User-Group/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/7/4/4/thumb_463381860.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
-      
-  </div>
-  <div class="description truncate">
-      “Este es un grupo para todos los desarrolladores interesados en aprender y usar Kotlin como lenguaje para desarrollar aplicaciones móviles o web. ”  Grupo en Facebook : https://www.facebook.com/groups/15405803062...
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1318-miembros-green.svg' alt='1318 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-43" href="#">
-    Perú .NET Development
-  </a>
-  
-
-                    
-<span id="tooltip-43" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/PeruNetDevelopment/" target="_blank">
-          Perú .NET Development
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-  </div>
-  <div class="description truncate">
       Grupo para amantes del desarrollo con herramientas MS NET
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2504-miembros-green.svg' alt='2504 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-35',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-35")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-44" href="#">
-    PyData-Lima
-  </a>
-  
-
-                    
-<span id="tooltip-44" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/PyData-Lima/" target="_blank">
-          PyData-Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-36" href="https://www.meetup.com/Peru-Java-User-Group/"> 
+                    Perú Java User Group 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2382-miembros-green.svg' 
+                    alt='2382 miembros' />
+                </div>
+                <span id="tooltip-36" style="display: none">
+  <div class="title title-tooltip">
+      <b>Perú Java User Group</b>
       
   </div>
-  <div class="description truncate">
-      PyData es un programa educativo de NumFOCUS. PyData proporciona un foro para la comunidad internacional de usuarios y desarrolladores de herramientas de análisis de datos para compartir ideas y aprender unos de otros. La red global PyData promueve la discusión de las prácticas, nuevos enfoques y tecnologías emergentes para el manejo, procesamiento, análisis y visualización de datos. Las comunidades de PyData se acercan a la ciencia de datos usando muchos idiomas, incluyendo (pero no limitado a) Python, Julia y R. 
-El Código de Conducta PyData rige este encuentro. Para discutir cualquier problema o inquietud relacionada con el código de conducta o el comportamiento de cualquier persona en una reunión de PyData, comuníquese con la Directora Ejecutiva de NumFOCUS, Leah Silen (leah@numfocus.org) o con el organizador del grupo. 
-PyData Meetup Lima pertenece a la red global de eventos PyData coordinada por NumFOCUS. (http://numfocus.org/) 
-PyData is an educational program of NumFOCUS, a 501(c)3 non-profit organization in the United States. PyData provides a forum for the international community of users and developers of data analysis tools to share ideas and learn from each other. The global PyData network promotes discussion of best practices, new approaches, and emerging technologies for data management, processing, analytics, and visualization. PyData communities approach data science using many languages, including (but not limited to) Python, Julia, and R.The PyData Code of Conduct (http://pydata.org/code-of-conduct.html)governs this meetup. To discuss any issues or concerns relating to the code of conduct or the behavior of anyone at a PyData meetup, please contact NumFOCUS Executive Director Leah Silen ( leah@numfocus.org ) or the group organizer. 
-PyData Meetup Lima is part of the PyData global events network, coordinated by NumFOCUS (http://numfocus.org/).
+  <div class="description">
+      
+      Comunidad de Java que busca compartir todo lo relacionado al lenguaje y a su ecosistema.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/325-miembros-green.svg' alt='325 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-36',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-36")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-45" href="#">
-    Python Perú
-  </a>
-  
-
-                    
-<span id="tooltip-45" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/pythonperu/" target="_blank">
-          Python Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-37" href="https://www.meetup.com/Peru-Kotlin-User-Group/"> 
+                    Perú Kotlin User Group 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1318-miembros-green.svg' 
+                    alt='1318 miembros' />
+                </div>
+                <span id="tooltip-37" style="display: none">
+  <div class="title title-tooltip">
+      <b>Perú Kotlin User Group</b>
       
-        <a href="https://www.meetup.com/pythonperu/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/b/7/7/c/thumb_402826972.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/7/4/4/thumb_463381860.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
+      “Este es un grupo para todos los desarrolladores interesados en aprender y usar Kotlin como lenguaje para desarrollar aplicaciones móviles o web. ”  Grupo en Facebook : https://www.facebook.com/groups/15405803062... 
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-37',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-37")
+  });
+
+</script>
+            </li>
+            
+         
+            <li> 
+                <a  id="label-38" href="https://www.meetup.com/PyData-Lima/"> 
+                    PyData Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/325-miembros-green.svg' 
+                    alt='325 miembros' />
+                </div>
+                <span id="tooltip-38" style="display: none">
+  <div class="title title-tooltip">
+      <b>PyData Lima</b>
+      
+  </div>
+  <div class="description">
+      
+      PyData es un programa educativo de NumFOCUS. PyData proporciona un foro para la comunidad internacional de usuarios y desarrolladores de herramientas de análisis de datos para compartir ideas y aprender unos de otros. La red global PyData promueve la d...
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-38',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-38")
+  });
+
+</script>
+            </li>
+            
+         
+            <li> 
+                <a  id="label-39" href="https://www.meetup.com/pythonperu/"> 
+                    Python Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1466-miembros-green.svg' 
+                    alt='1466 miembros' />
+                </div>
+                <span id="tooltip-39" style="display: none">
+  <div class="title title-tooltip">
+      <b>Python Perú</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/b/7/7/c/thumb_402826972.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
+      
+  </div>
+  <div class="description">
+      
       Python Perú es la Comunidad de estudiantes, profesionales e interesados en tener un espacio donde conversar, preguntar e intercambiar ideas todo acerca del lenguaje de programación Python
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1466-miembros-green.svg' alt='1466 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-39',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-39")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-46" href="#">
-    React Native Perú
-  </a>
-  
-
-                    
-<span id="tooltip-46" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/React-Native-Peru/" target="_blank">
-          React Native Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-40" href="https://www.meetup.com/rladies-lima/"> 
+                    R-Ladies Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/957-miembros-green.svg' 
+                    alt='957 miembros' />
+                </div>
+                <span id="tooltip-40" style="display: none">
+  <div class="title title-tooltip">
+      <b>R-Ladies Lima</b>
       
   </div>
-  <div class="description truncate">
-      Hoy el desarrollo móvil ha tomado un camino muy interesante gracias a Frameworks como React Native y Flutter. En nuestro primer Meetup exploramos las opciones de desarrollo móvil y teníamos la intención de congregar a los desarrollos de cualquier plataforma alternativa a la nativa sin embargo hemos replanteado el enfoque del grupo para hacerlo específico a una de las opciones más usadas en el desarrollo móvil, React Native.  
-Si eres de los que les gusta explorar opciones, comparar beneficios y aprender y compartir, este grupo es para ti!
+  <div class="description">
+      
+      R-Ladies Lima es parte de una organización mundial para promover la Diversidad de Género en la comunidad R.
+R-Ladies Lima le da la bienvenida a los interesados en programar en R, no importa si eres experto o estas comenzando, el objetivo de este grupo ...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/585-miembros-green.svg' alt='585 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-40',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-40")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-47" href="#">
-    ReactLima
-  </a>
-  
-
-                    
-<span id="tooltip-47" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/ReactJS-Peru/" target="_blank">
-          ReactLima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-        <a href="https://www.meetup.com/ReactJS-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/5/7/6/9/thumb_452782377.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+         
+            <li> 
+                <a  id="label-41" href="https://www.meetup.com/React-Native-Peru/"> 
+                    React Native Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/585-miembros-green.svg' 
+                    alt='585 miembros' />
+                </div>
+                <span id="tooltip-41" style="display: none">
+  <div class="title title-tooltip">
+      <b>React Native Perú</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
+      Hoy el desarrollo móvil ha tomado un camino muy interesante gracias a Frameworks como React Native y Flutter. En nuestro primer Meetup exploramos las opciones de desarrollo móvil y teníamos la intención de congregar a los desarrollos de cualquier plata...
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-41',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-41")
+  });
+
+</script>
+            </li>
+            
+         
+            <li> 
+                <a  id="label-42" href="https://www.meetup.com/ReactJS-Peru/"> 
+                    ReactLima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1388-miembros-green.svg' 
+                    alt='1388 miembros' />
+                </div>
+                <span id="tooltip-42" style="display: none">
+  <div class="title title-tooltip">
+      <b>ReactLima</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/5/7/6/9/thumb_452782377.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
+      
+  </div>
+  <div class="description">
+      
       Te esperamos en un próximo meetup pasar un rato genial, donde compartimos y aprendemos sobre React y tecnologías relacionadas, por favor si te gustaría realizar una presentación en algún próximo meetup, completar el siguiente google form, gracias!:
-https://docs.google.com/forms/d/e/1FAIpQLScqyhDnq_7XEDP_zjlkPfIMptvC2DaJTqmFA7PnFxHa8MnIyg/viewform
-
-Come for drinks, share stories, and hack using ReactJS, if you would like to give a talk, please fill the following google form, thanks!:
-https://docs.google.com/forms/d/e/1FAIpQLScqyhDnq_7XEDP_zjlkPfIMptvC2DaJTqmFA7PnFxHa8MnIyg/viewform
+htt...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1388-miembros-green.svg' alt='1388 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-42',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-42")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-48" href="#">
-    Ruby Perú
-  </a>
-  
-
-                    
-<span id="tooltip-48" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/rubyperu/" target="_blank">
-          Ruby Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-43" href="https://www.meetup.com/rubyperu/"> 
+                    Ruby Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/2376-miembros-green.svg' 
+                    alt='2376 miembros' />
+                </div>
+                <span id="tooltip-43" style="display: none">
+  <div class="title title-tooltip">
+      <b>Ruby Perú</b>
       
-        <a href="https://www.meetup.com/rubyperu/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/c/d/6/6/thumb_343672582.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/c/d/6/6/thumb_343672582.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Somos la comunidad de desarrolladores y usuarios de Ruby en Perú. Ruby es un lenguaje de programación que puedes usar para construir cualquier tipo de software.
 Para más información: http://ruby.pe
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/2376-miembros-green.svg' alt='2376 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-43',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-43")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-49" href="#">
-    R-Ladies Lima
-  </a>
-  
-
-                    
-<span id="tooltip-49" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/rladies-lima/" target="_blank">
-          R-Ladies Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-44" href="https://www.meetup.com/Sketch-DesignLima/"> 
+                    Sketch & Design - Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/346-miembros-green.svg' 
+                    alt='346 miembros' />
+                </div>
+                <span id="tooltip-44" style="display: none">
+  <div class="title title-tooltip">
+      <b>Sketch & Design - Perú</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/5/d/6/c/thumb_463403916.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      R-Ladies Lima es parte de una organización mundial para promover la Diversidad de Género en la comunidad R.
-R-Ladies Lima le da la bienvenida a los interesados en programar en R, no importa si eres experto o estas comenzando, el objetivo de este grupo es promover R, intercambiar conocimiento y crear una red de chicas. 
-Esta es una iniciativa social. Todos los eventos serán gratuitos.
-¡Agrega este Meetup y enterarte de los próximos eventos! ¡Te esperamos!
-¡Aquí hay algunos enlaces! Puede acceder a nuestras presentaciones, scripts R y más (pronto) en nuestra cuenta de Github y síganos en Twitter para mantenerse al día sobre las novedades de R-Ladies.
-Facebook: https://www.facebook.com/RLadiesLima
-Twitter: https://twitter.com/RLadiesLima
-Mail: lima@rladies.org 
-  Para más detalles sobre la iniciativa R-Ladies Global visitá rladies.org (https://rladies.org/). 
-Política y Código de Conducta de R-Ladies:  En la comunidad R-Ladies los puestos de responsabilidad como presentadoras y orientadoras son exclusivamente para personas que se identifican con el género femenino. Aún así la asistencia a las reuniones está abierta a personas de todos los géneros.  Siempre se dará prioridad a la participación femenina ya que este grupo nació con la intención de animar y apoyar a mujeres en los trabajos STEM (Science, Technology, Engineering & Math) y en la comunidad de R. Las organizadoras de R-Ladies tienen la responsabilidad y el derecho de tomar las acciones oportunas para salvaguardar los intereses de la comunidad.  Código de conducta completo. (https://github.com/rladies/starter-kit/wiki/Code-of-Conduct#spanish) También adherimos al código de conducta del R Consortium y del resto de la Comunidad R. (https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct)
+  <div class="description">
+      
+      Hey sketchers, Este grupo se ha creado con la finalidad de evangelizar (a los diseñadores y nuevos diseñadores) con herramientas alternativas en el diseño de interfaces digitales. Además se realizaran, charlas, drinks, learning sessions para mejorar nu...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/957-miembros-green.svg' alt='957 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-44',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-44")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-50" href="#">
-    Sketch & Design - Perú
-  </a>
-  
-
-                    
-<span id="tooltip-50" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Sketch-DesignLima/" target="_blank">
-          Sketch & Design - Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-45" href="https://www.meetup.com/Software-Crafters-Peru/"> 
+                    Software Crafters Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/918-miembros-green.svg' 
+                    alt='918 miembros' />
+                </div>
+                <span id="tooltip-45" style="display: none">
+  <div class="title title-tooltip">
+      <b>Software Crafters Perú</b>
       
-        <a href="https://www.meetup.com/Sketch-DesignLima/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/5/d/6/c/thumb_463403916.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/c/d/1/3/thumb_456652499.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Hey sketchers, Este grupo se ha creado con la finalidad de evangelizar (a los diseñadores y nuevos diseñadores) con herramientas alternativas en el diseño de interfaces digitales. Además se realizaran, charlas, drinks, learning sessions para mejorar nuestros skills y sacarle provecho a la herramienta. El grupo está abierto a cualquier persona interesada en el diseño, wireframes, prototipos, etc ... en ocasiones será necesario traer su Mac (sobre todo en los learning sessions) para poder enseñar mejor la herramienta, aprendiendo con la práctica ;). Siempre damos la bienvenida a los diseñadores avanzados que pueden compartir sus conocimientos con el grupo. Si eres tú, no dudes en ponerse en contacto.
-Búsquenos nuestro grupo de facebook:
-https://www.facebook.com/groups/sketchDesignPeru/ 
-Y nuestra página: 
-https://www.facebook.com/Sketch-Design-Per%C3%BA-352916868685991/
+  <div class="description">
+      
+      Hablaremos de Continuous Delivery, Integration, Design Patterns, Performance Tweaks/Tunning, Bases de datos, Lenguajes de programación, Algoritmia, Clean Code, TDD, BDD, ATDD, Testing, Automatización, Seguridad, Tunning, etc. Si eres Desarrollador de s...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/346-miembros-green.svg' alt='346 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-45',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-45")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-51" href="#">
-    Software Crafters Perú
-  </a>
-  
-
-                    
-<span id="tooltip-51" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Software-Crafters-Peru/" target="_blank">
-          Software Crafters Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
-      
-        <a href="https://www.meetup.com/Software-Crafters-Peru/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/c/d/1/3/thumb_456652499.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+         
+            <li> 
+                <a  id="label-46" href="https://www.meetup.com/tech-talks-pe/"> 
+                    Tech Talks Perú 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1696-miembros-green.svg' 
+                    alt='1696 miembros' />
+                </div>
+                <span id="tooltip-46" style="display: none">
+  <div class="title title-tooltip">
+      <b>Tech Talks Perú</b>
       
   </div>
-  <div class="description truncate">
-      Hablaremos de Continuous Delivery, Integration, Design Patterns, Performance Tweaks/Tunning, Bases de datos, Lenguajes de programación, Algoritmia, Clean Code, TDD, BDD, ATDD, Testing, Automatización, Seguridad, Tunning, etc. Si eres Desarrollador de software o Software Developer in Test este es el grupo donde debes estar
-  </div>
-</span>
-
-
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/918-miembros-green.svg' alt='918 miembros'>
-  </div>
-
-
-                </li>
-                
-            
-                <li>
-                    
-  <a  id="label-52" href="#">
-    Tech Talks Perú
-  </a>
-  
-
-                    
-<span id="tooltip-52" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/tech-talks-pe/" target="_blank">
-          Tech Talks Perú
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+  <div class="description">
       
-  </div>
-  <div class="description truncate">
       Charlas de tecnología, desarrollo, diseño, programación, frontend, backend, mobile y más.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1696-miembros-green.svg' alt='1696 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-46',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-46")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-53" href="#">
-    Unreal Engine Lima
-  </a>
-  
-
-                    
-<span id="tooltip-53" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Unreal-Engine-Lima/" target="_blank">
-          Unreal Engine Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-47" href="https://www.meetup.com/Unreal-Engine-Lima/"> 
+                    Unreal Engine Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/727-miembros-green.svg' 
+                    alt='727 miembros' />
+                </div>
+                <span id="tooltip-47" style="display: none">
+  <div class="title title-tooltip">
+      <b>Unreal Engine Lima</b>
       
   </div>
-  <div class="description truncate">
-      Grupo Oficial de Unreal Engine en Lima, Perú. Este grupo está dedicado a proveer un espacio para conocernos todas las personas que usen Unreal Engine, aprender juntos y mostrar nuestros proyectos. Todas las personas son bienvenidas: estudiantes, aficionados y profesionales.
-Siguenos en @LimaIsUnreal para estar al tanto de cualquier evento!
-Link del facebook: https://www.facebook.com/groups/494391720759079/
+  <div class="description">
+      
+      Grupo Oficial de Unreal Engine en Lima, Perú. Este grupo está dedicado a proveer un espacio para conocernos todas las personas que usen Unreal Engine, aprender juntos y mostrar nuestros proyectos. Todas las personas son bienvenidas: estudiantes, aficio...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/727-miembros-green.svg' alt='727 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-47',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-47")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-54" href="#">
-    WiT Peru
-  </a>
-  
-
-                    
-<span id="tooltip-54" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/witperu/" target="_blank">
-          WiT Peru
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-48" href="https://www.meetup.com/witperu/"> 
+                    WiT Peru 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1426-miembros-green.svg' 
+                    alt='1426 miembros' />
+                </div>
+                <span id="tooltip-48" style="display: none">
+  <div class="title title-tooltip">
+      <b>WiT Peru</b>
       
-        <a href="https://www.meetup.com/witperu/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/7/b/d/5/thumb_440371701.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/7/b/d/5/thumb_440371701.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       WIT Perú (www.witperu.org) busca cerrar la brecha de género de mujeres en la industria de tecnología. Incrementar la participación de mujeres en el campo de tecnología y fortalecer el ecosistema emprendedor de base tecnológica.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1426-miembros-green.svg' alt='1426 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-48',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-48")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-55" href="#">
-    Women Techmakers Lima
-  </a>
-  
-
-                    
-<span id="tooltip-55" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/Women-Techmakers-Lima/" target="_blank">
-          Women Techmakers Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-49" href="https://www.meetup.com/Women-Techmakers-Lima/"> 
+                    Women Techmakers Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/519-miembros-green.svg' 
+                    alt='519 miembros' />
+                </div>
+                <span id="tooltip-49" style="display: none">
+  <div class="title title-tooltip">
+      <b>Women Techmakers Lima</b>
       
-        <a href="https://www.meetup.com/Women-Techmakers-Lima/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/7/d/6/3/thumb_460232099.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/7/d/6/3/thumb_460232099.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      Women Techmakers es la marca global y el programa de Google para las mujeres en la tecnología. Women Techmakers proporciona visibilidad, la comunidad y los recursos para las mujeres en la tecnología para impulsar la innovación y la participación en el campo. Los eventos Women Techmakers están diseñados para promover un ambiente de inclusión de las mujeres en la tecnología, así como celebrar a las mujeres líderes de la industria. Queremos avanzar, crecer y sobre todo compartir conocimiento con todos ustedes.
-Ahora todas las comunidades GDG Women han sido renombrado por el nombre de Women Techmakers.
-¿Por qué el cambio?  - Para unificar las comunidades de mujeres en tecnología en  todo el mundo.  - Proporcionar recursos optimizados y comunicación de Google  - Para evitar la confusión de marca
-Disclaimer: Women Techmakers Lima, nuestras actividades y las opiniones expresadas en esta +Página no deben relacionarse de ninguna forma a Google, la corporación.
+  <div class="description">
+      
+      Women Techmakers es la marca global y el programa de Google para las mujeres en la tecnología. Women Techmakers proporciona visibilidad, la comunidad y los recursos para las mujeres en la tecnología para impulsar la innovación y la participación en el ...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/519-miembros-green.svg' alt='519 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-49',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-49")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-56" href="#">
-    WordPress Perú - Lima
-  </a>
-  
-
-                    
-<span id="tooltip-56" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/wpperu-lima/" target="_blank">
-          WordPress Perú - Lima
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-50" href="https://www.meetup.com/wpperu-lima/"> 
+                    WordPress Perú - Lima 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1520-miembros-green.svg' 
+                    alt='1520 miembros' />
+                </div>
+                <span id="tooltip-50" style="display: none">
+  <div class="title title-tooltip">
+      <b>WordPress Perú - Lima</b>
       
-        <a href="https://www.meetup.com/wpperu-lima/" target="_blank">
-          <img src="https://secure.meetupstatic.com/photos/event/3/4/d/f/thumb_439033535.jpeg"  style="border-radius:50%; border: 1px solid lightgrey" width="50" height="50"/>
-
-        </a>
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/3/4/d/f/thumb_439033535.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Hola!
-Somos la comunidad peruana de WordPress, reunimos a programadores, diseñadores, comunicadores, emprendedores, negocios, fotografos y todo tipo de profesionales que utilizamos WordPress y queremos compartir el conocimiento y seguir conociendo nuevas posibilidades  para usar esta poderosa herramienta.
-Si usas o conoces de WordPress eres bienvenid@, tratamos de reunirnos todos los meses a compartir diversos tips, consejos, usos y sobre todo mucha experiencia.
-Si no usas o tampoco conoces WordPress, te invitamos a participar y preguntar estamos seguros que al igual que nosotros, una vez que lo conozcas te encantará!
-Encuentranos también en:
-Grupo de correo: wordpress-peru@googlegroups.com 
-Web: wpperu.org
-Twitter: @wpperu
-FacebooK: https://www.facebook.com/wpperu 
-Grupo de FB: https://www.facebook.com/groups/wpperu/
-Busca nuestras conversaciones usando el hastag #wpperu
+Somos la comunidad peruana de WordPress, reunimos a programadores, diseñadores, comunicadores, emprendedores, negocios, fotografos y todo tipo de profesionales que utilizamos WordPress y queremos compartir el conocimiento y seguir conociendo nuev...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/1520-miembros-green.svg' alt='1520 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-50',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-50")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-            </ul>
-        </dd>
-        
-
-        <dt>Piura</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-  <a  id="label-57" href="#">
-    GDG Piura
-  </a>
-  
-
-                    
-<span id="tooltip-57" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/GDG-Piura/" target="_blank">
-          GDG Piura
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-51" href="https://www.meetup.com/IOS-Dev-Peru/"> 
+                    iOS Perú 🇵🇪 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/1190-miembros-green.svg' 
+                    alt='1190 miembros' />
+                </div>
+                <span id="tooltip-51" style="display: none">
+  <div class="title title-tooltip">
+      <b>iOS Perú 🇵🇪</b>
+      
+        <img 
+          src="https://secure.meetupstatic.com/photos/event/c/5/b/thumb_455403163.jpeg"  
+          style="border-radius:50%; border: 1px solid lightgrey" 
+          width="50" height="50"/>
       
   </div>
-  <div class="description truncate">
-      El Google Developer Group - GDG Piura es una comunidad que investiga, comparte y difunde tecnología Google en las áreas de desarrollo de software basado en Cloud, Mobile y Web; tales como Google Apps API, Android, App Engine, GWT, HTML5, API Maps, entre otras tecnologías. 
-Si te interesa el desarrollo de sofware utilizando tecnologías de Google , este es el lugar indicado.
+  <div class="description">
+      
+      Comunidad de ingenieros y desarrolladores de aplicaciones iOS.
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/143-miembros-green.svg' alt='143 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-51',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-51")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-            </ul>
-        </dd>
         
+        </ul>
+    </dd>
 
-        <dt>Tingo María</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-    <a   href="https://www.opentech.pe" target="_blank">
-        OpenTech
-    </a>
-
-
-                    
-
-                    
-
-                </li>
-                
-            
-            </ul>
-        </dd>
+    <dt>Piura</dt>
+    <dd>
+        <ul>
         
-
-        <dt>Trujillo</dt>
-        <dd>
-            <ul>
-            
-                <li>
-                    
-  <a  id="label-59" href="#">
-    GDG Trujillo
-  </a>
-  
-
-                    
-<span id="tooltip-59" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/GDG-Trujillo/" target="_blank">
-          GDG Trujillo
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-52" href="https://www.meetup.com/GDG-Piura/"> 
+                    GDG Piura 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/143-miembros-green.svg' 
+                    alt='143 miembros' />
+                </div>
+                <span id="tooltip-52" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Piura</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
+      El Google Developer Group - GDG Piura es una comunidad que investiga, comparte y difunde tecnología Google en las áreas de desarrollo de software basado en Cloud, Mobile y Web; tales como Google Apps API, Android, App Engine, GWT, HTML5, API Maps, entr...
+  </div>
+</span>
+
+<script> 
+
+  new jBox('Tooltip', {
+    attach: '#label-52',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-52")
+  });
+
+</script>
+            </li>
+            
+        
+        </ul>
+    </dd>
+
+    <dt>Trujillo</dt>
+    <dd>
+        <ul>
+        
+         
+            <li> 
+                <a  id="label-53" href="https://www.meetup.com/GDG-Trujillo/"> 
+                    GDG Trujillo 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/50-miembros-green.svg' 
+                    alt='50 miembros' />
+                </div>
+                <span id="tooltip-53" style="display: none">
+  <div class="title title-tooltip">
+      <b>GDG Trujillo</b>
+      
+  </div>
+  <div class="description">
+      
       Somos un grupo que fomenta el aprendizaje de las tecnologías. Buscamos reunir a toda la la comunidad local de desarrolladores e interesados ​​en los recursos y la tecnología de Google. 
-GDG Trujillo es un grupo independiente; Nuestras actividades y las opiniones expresadas aquí no deben vincularse de ninguna manera con Google, la corporación. Para obtener más información sobre el programa GDG, visite https://developers.google.com/groups/
+GDG Trujillo es un grupo independiente; Nuestras actividades y las...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/50-miembros-green.svg' alt='50 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-53',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-53")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
-                <li>
-                    
-  <a  id="label-60" href="#">
-    WordPress Perú - Trujillo
-  </a>
-  
-
-                    
-<span id="tooltip-60" style="display: none">
-  <div class="title">
-      <a href="https://www.meetup.com/wpperu-trujillo/" target="_blank">
-          WordPress Perú - Trujillo
-        <i class="fa fa-external-link" style="font-size:12px"></i>
-      </a>
+         
+            <li> 
+                <a  id="label-54" href="https://www.meetup.com/wpperu-trujillo/"> 
+                    WordPress Perú - Trujillo 
+                </a> 
+                <div class="members-counter"> 
+                    <img 
+                    src='https://img.shields.io/badge/148-miembros-green.svg' 
+                    alt='148 miembros' />
+                </div>
+                <span id="tooltip-54" style="display: none">
+  <div class="title title-tooltip">
+      <b>WordPress Perú - Trujillo</b>
       
   </div>
-  <div class="description truncate">
+  <div class="description">
+      
       Hola!
-Somos la comunidad trujillana de WordPress, reunimos a programadores, diseñadores, comunicadores, emprendedores, y todo tipo de profesionales que utilizamos WordPress y queremos compartir el conocimiento y seguir conociendo nuevas posibilidades para usar esta poderosa herramienta.
-Si usas o conoces de WordPress eres bienvenid@, tratamos de reunirnos todos los meses, y así compartir diversos tips, consejos y sobre todo mucha experiencia.
-Si no usas o tampoco conoces WordPress, te invitamos igualmente a participar y preguntar, estamos seguros que al igual que nosotros una vez conozcas WordPress te encantará!
+Somos la comunidad trujillana de WordPress, reunimos a programadores, diseñadores, comunicadores, emprendedores, y todo tipo de profesionales que utilizamos WordPress y queremos compartir el conocimiento y seguir conociendo nuevas posibilidades p...
   </div>
 </span>
 
+<script> 
 
-                    
-  <div class="members-counter">
-    
-    <img src='https://img.shields.io/badge/148-miembros-green.svg' alt='148 miembros'>
-  </div>
+  new jBox('Tooltip', {
+    attach: '#label-54',
+    trigger: 'mouseenter',
+    maxWidth: 500,
+    maxHeight: 400,
+    content: $("#tooltip-54")
+  });
 
-
-                </li>
-                
+</script>
+            </li>
             
+        
+        </ul>
+    </dd>
+
+    </div>
+    <div class="column events w-25">
+        
+
+
+<dt>Proximos Eventos</dt>
+
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    12
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/wpperu-arequipa/events/265408238/">Primer Taller - WordPress para Ellas</a>
+                        <small><b>Organizado por:</b> WordPress Perú - Arequipa</small>
+                        <small><b>05:00 PM</b> | Salaverry 301 (Arequipa)</small>
+                    </li>
+                 
             </ul>
         </dd>
-        
     </div>
-    
-        <div class="column events w-25">
-  <dt>Proximos Eventos</dt>
-  <dd id="event-list">
-    <!--      Filled by JS-->
-  </dd>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    15
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/agileperu/events/265298765/">[Lima] Reunión Mensual Octubre 2019</a>
+                        <small><b>Organizado por:</b> Agile Perú</small>
+                        <small><b>07:00 PM</b> | Av. República de Panamá 3591 Piso 20 (Lima)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/tech-talks-pe/events/263015244/">Tech Talks - Octubre 2019</a>
+                        <small><b>Organizado por:</b> Tech Talks Perú</small>
+                        <small><b>07:00 PM</b> | Able offices (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    16
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/PyData-Lima/events/265595637/">24to Meetup Data Science Research Perú</a>
+                        <small><b>Organizado por:</b> PyData Lima</small>
+                        <small><b>07:00 PM</b> | Calle Francisco Masias 370 (San Isidro)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    17
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Unreal-Engine-Lima/events/265441770/">6to Meetup Unreal Engine Lima</a>
+                        <small><b>Organizado por:</b> Unreal Engine Lima</small>
+                        <small><b>07:00 PM</b> | PONTIFICIA UNIVERSIDAD CATOLICA DEL PERU  (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    19
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/gdgcuscoperu/events/263807769/">DevFest Cusco 2019</a>
+                        <small><b>Organizado por:</b> GDG Cusco</small>
+                        <small><b>08:00 AM</b> | Paraninfo Universitario UAC  (Cusco)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/GDGChimbote/events/263273516/">DevFest GDG Chimbote 2019</a>
+                        <small><b>Organizado por:</b> GDG Chimbote</small>
+                        <small><b>08:00 AM</b> | I.E.S.T.P. Carlos Salazar Romero (Nuevo Chimbote District)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Firebase-Peru/events/264749458/">Hacktoberfest 2019 Lima</a>
+                        <small><b>Organizado por:</b> Firebase Perú</small>
+                        <small><b>08:00 AM</b> | University of Lima (Santiago de Surco)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/PeruNetDevelopment/events/265580159/">Introducción a ASP.NET Core MVC </a>
+                        <small><b>Organizado por:</b> Perú .NET Development</small>
+                        <small><b>02:00 PM</b> | Avantica (Lima)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/wpperu-trujillo/events/265599472/">WordPress Trujillo - Meetup Octubre 2019</a>
+                        <small><b>Organizado por:</b> WordPress Perú - Trujillo</small>
+                        <small><b>06:00 PM</b> | Estación Coworking (Trujillo)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    24
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjryznbwb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    26
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/gdglima/events/265429819/">DevFest Lima 2019</a>
+                        <small><b>Organizado por:</b> GDG Lima</small>
+                        <small><b>09:00 AM</b> | Crehana (Magdalena del Mar)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/265160398/">NodeSchool Lima</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>10:00 AM</b> | Laboratoria (Lima)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/msperu/events/264404086/">Global Microsoft 365 Developer Bootcamp</a>
+                        <small><b>Organizado por:</b> Microsoft User Group Perú</small>
+                        <small><b>09:00 AM</b> | Microsoft Perú (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    28
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Cloud-Native-Computing-Peru/events/265622089/">Meetup Octubre</a>
+                        <small><b>Organizado por:</b> Cloud Native Computing Perú</small>
+                        <small><b>07:00 PM</b> | RIMAC Seguros - Edificio Torre del Parque (San Isidro)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    29
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/agileperu/events/265608195/">Compartir de experiencias del Ágiles 2019 – XII Jornadas Latinoamericanas </a>
+                        <small><b>Organizado por:</b> Agile Perú</small>
+                        <small><b>07:00 PM</b> | Av. Antonio Miroquesada 425 (Magdalena del Mar)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    05
+                </h1>
+                <small>
+                    Nov
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/GDG-Ica/events/264010568/">DevFest Ica</a>
+                        <small><b>Organizado por:</b> GDG Ica</small>
+                        <small><b>08:00 AM</b> |  ()</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    09
+                </h1>
+                <small>
+                    Nov
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/GDG-Open/events/263942288/">DevFest Lima 2019</a>
+                        <small><b>Organizado por:</b> GDG Open</small>
+                        <small><b>09:00 AM</b> | Ricardo Palma University (Santiago de Surco)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    16
+                </h1>
+                <small>
+                    Nov
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/GDG-Arequipa/events/264022220/">DevFest Arequipa 2019</a>
+                        <small><b>Organizado por:</b> GDG Arequipa</small>
+                        <small><b>08:00 AM</b> | Arequipa (Arequipa)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/msperu/events/265025238/">Microsoft ❤ Linux</a>
+                        <small><b>Organizado por:</b> Microsoft User Group Perú</small>
+                        <small><b>09:00 AM</b> | Microsoft Perú (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    21
+                </h1>
+                <small>
+                    Nov
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjryzpbcc/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    23
+                </h1>
+                <small>
+                    Nov
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Hacker-Dome/events/265197554/">II FLUTTER FULL DAY + DEMO DAY</a>
+                        <small><b>Organizado por:</b> Hacker Dome</small>
+                        <small><b>09:30 AM</b> | Autonomous University of Peru (Villa EL Salvador)</small>
+                    </li>
+                
+                    <li>
+                        <a href="https://www.meetup.com/msperu/events/265181969/">DotNetConf</a>
+                        <small><b>Organizado por:</b> Microsoft User Group Perú</small>
+                        <small><b>08:30 AM</b> | Microsoft Perú (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    19
+                </h1>
+                <small>
+                    Dec
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjryzqbzb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    16
+                </h1>
+                <small>
+                    Jan
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybccbvb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    20
+                </h1>
+                <small>
+                    Feb
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybcdbbc/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    19
+                </h1>
+                <small>
+                    Mar
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybcfbzb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    16
+                </h1>
+                <small>
+                    Apr
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybcgbvb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    21
+                </h1>
+                <small>
+                    May
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybchbcc/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    03
+                </h1>
+                <small>
+                    Jun
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Peru-Kotlin-User-Group/events/zbzmspybcjbfb/">Kotlin - Android Dev Perú Meetup #16</a>
+                        <small><b>Organizado por:</b> Perú Kotlin User Group</small>
+                        <small><b>07:00 PM</b> | Avantica (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    18
+                </h1>
+                <small>
+                    Jun
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybcjbxb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    01
+                </h1>
+                <small>
+                    Jul
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Peru-Kotlin-User-Group/events/zbzmspybckbcb/">Kotlin - Android Dev Perú Meetup #16</a>
+                        <small><b>Organizado por:</b> Perú Kotlin User Group</small>
+                        <small><b>07:00 PM</b> | Avantica (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    16
+                </h1>
+                <small>
+                    Jul
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybckbvb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    05
+                </h1>
+                <small>
+                    Aug
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Peru-Kotlin-User-Group/events/zbzmspybclbhb/">Kotlin - Android Dev Perú Meetup #16</a>
+                        <small><b>Organizado por:</b> Perú Kotlin User Group</small>
+                        <small><b>07:00 PM</b> | Avantica (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    20
+                </h1>
+                <small>
+                    Aug
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybclbbc/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    02
+                </h1>
+                <small>
+                    Sep
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Peru-Kotlin-User-Group/events/zbzmspybcmbdb/">Kotlin - Android Dev Perú Meetup #16</a>
+                        <small><b>Organizado por:</b> Perú Kotlin User Group</small>
+                        <small><b>07:00 PM</b> | Avantica (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    17
+                </h1>
+                <small>
+                    Sep
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrybcmbwb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    07
+                </h1>
+                <small>
+                    Oct
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/Peru-Kotlin-User-Group/events/zbzmspybcnbkb/">Kotlin - Android Dev Perú Meetup #16</a>
+                        <small><b>Organizado por:</b> Perú Kotlin User Group</small>
+                        <small><b>07:00 PM</b> | Avantica (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+
+    <div class="date-row">
+        <div>
+            <div class="date-marker">
+                <h1>
+                    15
+                </h1>
+                <small>
+                    Mar
+                </small>
+            </div>
+        </div>
+        <dd class="event-list">
+            <ul>
+                
+                    <li>
+                        <a href="https://www.meetup.com/LimaJS/events/kmwfjrymcfbtb/">LimaJS</a>
+                        <small><b>Organizado por:</b> LimaJS</small>
+                        <small><b>07:30 PM</b> | Laboratoria (Lima)</small>
+                    </li>
+                 
+            </ul>
+        </dd>
+    </div>
+ 
+
+
+    </div>
 </div>
-    
-</div>
-
-<script type="application/javascript">
-  $(document).ready(function(){
-
-    var openedTooltip = null;
-
-    
-    
-    var tooltip_0 = new jBox('Tooltip', {
-      attach: '#label-0',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-0")
-    });
-    
-    
-    
-    var tooltip_1 = new jBox('Tooltip', {
-      attach: '#label-1',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-1")
-    });
-    
-    
-    
-    var tooltip_2 = new jBox('Tooltip', {
-      attach: '#label-2',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-2")
-    });
-    
-    
-    
-    var tooltip_3 = new jBox('Tooltip', {
-      attach: '#label-3',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-3")
-    });
-    
-    
-    
-    var tooltip_4 = new jBox('Tooltip', {
-      attach: '#label-4',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-4")
-    });
-    
-    
-    
-    var tooltip_5 = new jBox('Tooltip', {
-      attach: '#label-5',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-5")
-    });
-    
-    
-    
-    var tooltip_6 = new jBox('Tooltip', {
-      attach: '#label-6',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-6")
-    });
-    
-    
-    
-    var tooltip_7 = new jBox('Tooltip', {
-      attach: '#label-7',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-7")
-    });
-    
-    
-    
-    var tooltip_8 = new jBox('Tooltip', {
-      attach: '#label-8',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-8")
-    });
-    
-    
-    
-    var tooltip_9 = new jBox('Tooltip', {
-      attach: '#label-9',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-9")
-    });
-    
-    
-    
-    var tooltip_10 = new jBox('Tooltip', {
-      attach: '#label-10',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-10")
-    });
-    
-    
-    
-    var tooltip_11 = new jBox('Tooltip', {
-      attach: '#label-11',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-11")
-    });
-    
-    
-    
-    var tooltip_12 = new jBox('Tooltip', {
-      attach: '#label-12',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-12")
-    });
-    
-    
-    
-    var tooltip_13 = new jBox('Tooltip', {
-      attach: '#label-13',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-13")
-    });
-    
-    
-    
-    var tooltip_14 = new jBox('Tooltip', {
-      attach: '#label-14',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-14")
-    });
-    
-    
-    
-    var tooltip_15 = new jBox('Tooltip', {
-      attach: '#label-15',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-15")
-    });
-    
-    
-    
-    var tooltip_16 = new jBox('Tooltip', {
-      attach: '#label-16',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-16")
-    });
-    
-    
-    
-    var tooltip_17 = new jBox('Tooltip', {
-      attach: '#label-17',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-17")
-    });
-    
-    
-    
-    
-    
-    
-    
-    var tooltip_20 = new jBox('Tooltip', {
-      attach: '#label-20',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-20")
-    });
-    
-    
-    
-    var tooltip_21 = new jBox('Tooltip', {
-      attach: '#label-21',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-21")
-    });
-    
-    
-    
-    var tooltip_22 = new jBox('Tooltip', {
-      attach: '#label-22',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-22")
-    });
-    
-    
-    
-    
-    
-    var tooltip_24 = new jBox('Tooltip', {
-      attach: '#label-24',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-24")
-    });
-    
-    
-    
-    var tooltip_25 = new jBox('Tooltip', {
-      attach: '#label-25',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-25")
-    });
-    
-    
-    
-    var tooltip_26 = new jBox('Tooltip', {
-      attach: '#label-26',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-26")
-    });
-    
-    
-    
-    var tooltip_27 = new jBox('Tooltip', {
-      attach: '#label-27',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-27")
-    });
-    
-    
-    
-    var tooltip_28 = new jBox('Tooltip', {
-      attach: '#label-28',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-28")
-    });
-    
-    
-    
-    var tooltip_29 = new jBox('Tooltip', {
-      attach: '#label-29',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-29")
-    });
-    
-    
-    
-    
-    
-    var tooltip_31 = new jBox('Tooltip', {
-      attach: '#label-31',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-31")
-    });
-    
-    
-    
-    var tooltip_32 = new jBox('Tooltip', {
-      attach: '#label-32',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-32")
-    });
-    
-    
-    
-    var tooltip_33 = new jBox('Tooltip', {
-      attach: '#label-33',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-33")
-    });
-    
-    
-    
-    var tooltip_34 = new jBox('Tooltip', {
-      attach: '#label-34',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-34")
-    });
-    
-    
-    
-    var tooltip_35 = new jBox('Tooltip', {
-      attach: '#label-35',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-35")
-    });
-    
-    
-    
-    var tooltip_36 = new jBox('Tooltip', {
-      attach: '#label-36',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-36")
-    });
-    
-    
-    
-    var tooltip_37 = new jBox('Tooltip', {
-      attach: '#label-37',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-37")
-    });
-    
-    
-    
-    var tooltip_38 = new jBox('Tooltip', {
-      attach: '#label-38',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-38")
-    });
-    
-    
-    
-    
-    
-    var tooltip_40 = new jBox('Tooltip', {
-      attach: '#label-40',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-40")
-    });
-    
-    
-    
-    var tooltip_41 = new jBox('Tooltip', {
-      attach: '#label-41',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-41")
-    });
-    
-    
-    
-    var tooltip_42 = new jBox('Tooltip', {
-      attach: '#label-42',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-42")
-    });
-    
-    
-    
-    var tooltip_43 = new jBox('Tooltip', {
-      attach: '#label-43',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-43")
-    });
-    
-    
-    
-    var tooltip_44 = new jBox('Tooltip', {
-      attach: '#label-44',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-44")
-    });
-    
-    
-    
-    var tooltip_45 = new jBox('Tooltip', {
-      attach: '#label-45',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-45")
-    });
-    
-    
-    
-    var tooltip_46 = new jBox('Tooltip', {
-      attach: '#label-46',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-46")
-    });
-    
-    
-    
-    var tooltip_47 = new jBox('Tooltip', {
-      attach: '#label-47',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-47")
-    });
-    
-    
-    
-    var tooltip_48 = new jBox('Tooltip', {
-      attach: '#label-48',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-48")
-    });
-    
-    
-    
-    var tooltip_49 = new jBox('Tooltip', {
-      attach: '#label-49',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-49")
-    });
-    
-    
-    
-    var tooltip_50 = new jBox('Tooltip', {
-      attach: '#label-50',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-50")
-    });
-    
-    
-    
-    var tooltip_51 = new jBox('Tooltip', {
-      attach: '#label-51',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-51")
-    });
-    
-    
-    
-    var tooltip_52 = new jBox('Tooltip', {
-      attach: '#label-52',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-52")
-    });
-    
-    
-    
-    var tooltip_53 = new jBox('Tooltip', {
-      attach: '#label-53',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-53")
-    });
-    
-    
-    
-    var tooltip_54 = new jBox('Tooltip', {
-      attach: '#label-54',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-54")
-    });
-    
-    
-    
-    var tooltip_55 = new jBox('Tooltip', {
-      attach: '#label-55',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-55")
-    });
-    
-    
-    
-    var tooltip_56 = new jBox('Tooltip', {
-      attach: '#label-56',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-56")
-    });
-    
-    
-    
-    var tooltip_57 = new jBox('Tooltip', {
-      attach: '#label-57',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-57")
-    });
-    
-    
-    
-    
-    
-    var tooltip_59 = new jBox('Tooltip', {
-      attach: '#label-59',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-59")
-    });
-    
-    
-    
-    var tooltip_60 = new jBox('Tooltip', {
-      attach: '#label-60',
-      preventDefault: true,
-      trigger: 'click',
-      maxWidth: 500,
-      maxHeight: 400,
-      onOpen: function(){
-        if (openedTooltip != null && openedTooltip!==this) {
-          openedTooltip.close();
-        }
-        openedTooltip = this;
-      },
-      content: $("#tooltip-60")
-    });
-    
-    
-  });
-</script>
-
-  <script type="application/javascript">
-  $(document).ready(function () {
-    $.ajax({
-      url: "http://community-event-aggregator.herokuapp.com/", //Real Data
-      //url: "/sample.json", //Testing Data
-      success: function (data) {
-        var twoMonthsFromNow = moment().add(1, 'months');
-        for (var date in data) {
-          var header = $("<dt></dt>");
-          var content = $("<dd></dd>");
-          var content_list = $("<ul></ul>");
-          var hasElement = false;
-          data[date].forEach(function (item, index) {
-            var event_date_long = item["time"];
-            var event_date = moment(event_date_long);
-            var event_date_string = item["dateString"];
-            var communityName = item.communityName;
-            var event_name = item.name;
-            var event_url = item.eventUrl;
-            if (event_date.isBefore(twoMonthsFromNow)) {
-              var $li = createEventRow(event_name, event_url, communityName, event_date_string);
-              content_list.append($li);
-              hasElement = true;
-            }
-          });
-          if(hasElement){
-            header.text(date);
-            content.append(content_list);
-            $("#event-list").append(header);
-            $("#event-list").append(content);
-          }
-        }
-      },
-      headers: {
-        'Access-Control-Allow-Origin': '*'
-      },
-      timeout: 9000
-    });
-  });
-
-  function createEventRow(eventName, eventUrl, communityName, eventDate) {
-    return $("<li>" +
-        "<div class='w-100'>" +
-        "<a href='" + eventUrl + "' target='_blank'>" +
-        eventName +
-        "</a>" +
-        "</div>" +
-        "<div>" +
-        communityName +
-        "</div>" +
-        "</li>")
-  }
-
-</script>
-
 
   </body>
 
