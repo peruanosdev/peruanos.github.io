@@ -165,7 +165,7 @@
     margin-right: 10px;
     width: 40px;
     margin-top: 10px;
-    
+    border-radius: 10px;
 
     h1 {
         margin-bottom: -5px;
@@ -173,4 +173,15 @@
     small {
         text-transform: uppercase;
     }
+}
+
+.event-list {
+    a {
+        margin-bottom: 5px;
+    }
+    small  {
+        color: #888;
+        margin-bottom: 2px;
+    }
+
 }
