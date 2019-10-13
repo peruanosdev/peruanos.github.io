@@ -1,8 +1,8 @@
 language: ruby
 cache: bundler
 script:
-  - rake prepare
-  - rake build
+  - bundle exec rake prepare
+  - bundle exec rake build
 deploy:
   provider: pages
   local-dir: ./site
