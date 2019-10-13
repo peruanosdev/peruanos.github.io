@@ -8,4 +8,5 @@ Gemfile.lock
 #IntelliJ files
 *.iml
 .idea/
-_data/results.json
+_data/events.json
+_data/info.json
