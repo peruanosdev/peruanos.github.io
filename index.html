@@ -313,13 +313,13 @@ table td { border: 1px solid #e8e8e8; }
 
 .row { display: flex; margin: 0 2rem; justify-content: center; }
 
-.column { padding: 50px; }
+.column { padding: 30px; }
 
 @media (max-width: 760px) { .row { flex-direction: column; margin: 0; } }
 
 .site-description { display: block; width: 256px; margin: 0 auto; color: #666; }
 
-.site-description h1 { margin-top: 50px; }
+.site-description h1 { margin-top: 10px; }
 
 .communities-list dt, .events dt { text-transform: uppercase; font-weight: 600; font-size: small; color: #888; border-bottom: 1px solid #dedede; margin-bottom: 10px; }
 
@@ -335,8 +335,6 @@ table td { border: 1px solid #e8e8e8; }
 
 .events li { margin: 0.25rem auto 0.25rem auto; display: flex; flex-direction: column; }
 
-.contribute-button { padding-top: 30px; }
-
 .contribute-button a { display: flex; align-items: center; padding-top: 10px; padding-bottom: 10px; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; }
 
 .contribute-button a svg { margin-right: 10px; }
@@ -349,10 +347,18 @@ table td { border: 1px solid #e8e8e8; }
 
 .contributors { margin-top: 30px; display: flex; flex-flow: row wrap; }
 
-.contributors .contributor { width: 40px; padding: 1px; }
+.contributors .contributor { width: 39px; padding: 1px; }
 
 @media (min-width: 760px) { .w-25 { flex: 0 0 25%; max-width: 25%; }
-  .w-75 { flex: 0 0 75%; max-width: 75%; } }
+  .w-75 { flex: 0 0 75%; max-width: 75%; }
+  .row { max-height: 100vh; }
+  .contributors { max-height: 15vh; }
+  .scrollbar { overflow: auto; }
+  .scrollbar::-webkit-scrollbar { -webkit-appearance: none; }
+  .scrollbar::-webkit-scrollbar:vertical { width: 6px; }
+  .scrollbar::-webkit-scrollbar-button:increment, .scrollbar::-webkit-scrollbar-button { display: none; }
+  .scrollbar::-webkit-scrollbar-thumb { background-color: #797979; border-radius: 20px; }
+  .scrollbar::-webkit-scrollbar-track { border-radius: 10px; } }
 
 .w-100 { width: 100%; }
 
@@ -447,11 +453,11 @@ table td { border: 1px solid #e8e8e8; }
   </a>
 </div>
 
-            <div class='contributors'><div class='contributor'>    <a href='https://github.com/joelibaceta' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/864790?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/darksy12' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/33564005?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/07Gond' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/2708687?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/hpneo' title=''>        <img class='User__image' src='https://avatars2.githubusercontent.com/u/611699?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cristianbgp' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/8507974?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/Edwindeza' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/10719043?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/julianvelizc' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/1673410?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cerberodev' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/47544543?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cnahuina' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/22851278?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/danilobrinu' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/1697714?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/paulotijero' title=''>        <img class='User__image' src='https://avatars2.githubusercontent.com/u/28131369?v=4'>    </a></div></div>
+            <div class='contributors scrollbar'><div class='contributor'>    <a href='https://github.com/joelibaceta' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/864790?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/darksy12' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/33564005?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/07Gond' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/2708687?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/paulotijero' title=''>        <img class='User__image' src='https://avatars2.githubusercontent.com/u/28131369?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/hpneo' title=''>        <img class='User__image' src='https://avatars2.githubusercontent.com/u/611699?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cristianbgp' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/8507974?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/Edwindeza' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/10719043?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/julianvelizc' title=''>        <img class='User__image' src='https://avatars0.githubusercontent.com/u/1673410?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cerberodev' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/47544543?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/cnahuina' title=''>        <img class='User__image' src='https://avatars3.githubusercontent.com/u/22851278?v=4'>    </a></div><div class='contributor'>    <a href='https://github.com/danilobrinu' title=''>        <img class='User__image' src='https://avatars1.githubusercontent.com/u/1697714?v=4'>    </a></div></div>
         </div>
     </div>
 
-    <div class="column communities-list">
+    <div class="column communities-list scrollbar">
          
 
 
@@ -552,8 +558,8 @@ Un grupo para compartir ideas y establecer contactos con otros desarrolladores.U
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/320-miembros-green.svg' 
-                    alt='320 miembros' />
+                    src='https://img.shields.io/badge/324-miembros-green.svg' 
+                    alt='324 miembros' />
                 </div>
                 <span id="tooltip-2" style="display: none">
   <div class="title title-tooltip">
@@ -722,8 +728,8 @@ Un grupo para compartir ideas y establecer contactos con otros desarrolladores.U
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/1508-miembros-green.svg' 
-                    alt='1508 miembros' />
+                    src='https://img.shields.io/badge/1510-miembros-green.svg' 
+                    alt='1510 miembros' />
                 </div>
                 <span id="tooltip-6" style="display: none">
   <div class="title title-tooltip">
@@ -762,8 +768,8 @@ AWS Perú es una comunidad, integrada por Ingenieros, Técnicos y Geeks con expe
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/4731-miembros-green.svg' 
-                    alt='4731 miembros' />
+                    src='https://img.shields.io/badge/4732-miembros-green.svg' 
+                    alt='4732 miembros' />
                 </div>
                 <span id="tooltip-7" style="display: none">
   <div class="title title-tooltip">
@@ -801,8 +807,8 @@ AWS Perú es una comunidad, integrada por Ingenieros, Técnicos y Geeks con expe
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/3289-miembros-green.svg' 
-                    alt='3289 miembros' />
+                    src='https://img.shields.io/badge/3290-miembros-green.svg' 
+                    alt='3290 miembros' />
                 </div>
                 <span id="tooltip-8" style="display: none">
   <div class="title title-tooltip">
@@ -881,8 +887,8 @@ We are a group of Systems Engineers and...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/712-miembros-green.svg' 
-                    alt='712 miembros' />
+                    src='https://img.shields.io/badge/719-miembros-green.svg' 
+                    alt='719 miembros' />
                 </div>
                 <span id="tooltip-10" style="display: none">
   <div class="title title-tooltip">
@@ -1067,8 +1073,8 @@ This ...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/2911-miembros-green.svg' 
-                    alt='2911 miembros' />
+                    src='https://img.shields.io/badge/2912-miembros-green.svg' 
+                    alt='2912 miembros' />
                 </div>
                 <span id="tooltip-15" style="display: none">
   <div class="title title-tooltip">
@@ -1330,8 +1336,8 @@ Disclaimer: Google Cloud Developer Community Lima is an in...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/4194-miembros-green.svg' 
-                    alt='4194 miembros' />
+                    src='https://img.shields.io/badge/4196-miembros-green.svg' 
+                    alt='4196 miembros' />
                 </div>
                 <span id="tooltip-22" style="display: none">
   <div class="title title-tooltip">
@@ -1364,8 +1370,8 @@ Disclaimer: Google Cloud Developer Community Lima is an in...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/2826-miembros-green.svg' 
-                    alt='2826 miembros' />
+                    src='https://img.shields.io/badge/2828-miembros-green.svg' 
+                    alt='2828 miembros' />
                 </div>
                 <span id="tooltip-23" style="display: none">
   <div class="title title-tooltip">
@@ -1557,8 +1563,8 @@ Go is distributed under a&nbsp;BSD-style licen...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/2699-miembros-green.svg' 
-                    alt='2699 miembros' />
+                    src='https://img.shields.io/badge/2700-miembros-green.svg' 
+                    alt='2700 miembros' />
                 </div>
                 <span id="tooltip-28" style="display: none">
   <div class="title title-tooltip">
@@ -1636,8 +1642,8 @@ Go is distributed under a&nbsp;BSD-style licen...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/498-miembros-green.svg' 
-                    alt='498 miembros' />
+                    src='https://img.shields.io/badge/500-miembros-green.svg' 
+                    alt='500 miembros' />
                 </div>
                 <span id="tooltip-30" style="display: none">
   <div class="title title-tooltip">
@@ -1670,8 +1676,8 @@ Go is distributed under a&nbsp;BSD-style licen...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/7453-miembros-green.svg' 
-                    alt='7453 miembros' />
+                    src='https://img.shields.io/badge/7455-miembros-green.svg' 
+                    alt='7455 miembros' />
                 </div>
                 <span id="tooltip-31" style="display: none">
   <div class="title title-tooltip">
@@ -1818,8 +1824,8 @@ MongoDB, nombre que proviene de "humongous" ("descomunal" en inglés). Aquí se 
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/2504-miembros-green.svg' 
-                    alt='2504 miembros' />
+                    src='https://img.shields.io/badge/2510-miembros-green.svg' 
+                    alt='2510 miembros' />
                 </div>
                 <span id="tooltip-35" style="display: none">
   <div class="title title-tooltip">
@@ -1852,8 +1858,8 @@ MongoDB, nombre que proviene de "humongous" ("descomunal" en inglés). Aquí se 
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/2382-miembros-green.svg' 
-                    alt='2382 miembros' />
+                    src='https://img.shields.io/badge/2384-miembros-green.svg' 
+                    alt='2384 miembros' />
                 </div>
                 <span id="tooltip-36" style="display: none">
   <div class="title title-tooltip">
@@ -1886,8 +1892,8 @@ MongoDB, nombre que proviene de "humongous" ("descomunal" en inglés). Aquí se 
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/1318-miembros-green.svg' 
-                    alt='1318 miembros' />
+                    src='https://img.shields.io/badge/1320-miembros-green.svg' 
+                    alt='1320 miembros' />
                 </div>
                 <span id="tooltip-37" style="display: none">
   <div class="title title-tooltip">
@@ -1998,8 +2004,8 @@ MongoDB, nombre que proviene de "humongous" ("descomunal" en inglés). Aquí se 
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/957-miembros-green.svg' 
-                    alt='957 miembros' />
+                    src='https://img.shields.io/badge/958-miembros-green.svg' 
+                    alt='958 miembros' />
                 </div>
                 <span id="tooltip-40" style="display: none">
   <div class="title title-tooltip">
@@ -2107,8 +2113,8 @@ htt...
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/2376-miembros-green.svg' 
-                    alt='2376 miembros' />
+                    src='https://img.shields.io/badge/2375-miembros-green.svg' 
+                    alt='2375 miembros' />
                 </div>
                 <span id="tooltip-43" style="display: none">
   <div class="title title-tooltip">
@@ -2225,8 +2231,8 @@ Para más información: http://ruby.pe
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/1696-miembros-green.svg' 
-                    alt='1696 miembros' />
+                    src='https://img.shields.io/badge/1698-miembros-green.svg' 
+                    alt='1698 miembros' />
                 </div>
                 <span id="tooltip-46" style="display: none">
   <div class="title title-tooltip">
@@ -2259,8 +2265,8 @@ Para más información: http://ruby.pe
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/727-miembros-green.svg' 
-                    alt='727 miembros' />
+                    src='https://img.shields.io/badge/730-miembros-green.svg' 
+                    alt='730 miembros' />
                 </div>
                 <span id="tooltip-47" style="display: none">
   <div class="title title-tooltip">
@@ -2500,8 +2506,8 @@ Somos la comunidad peruana de WordPress, reunimos a programadores, diseñadores,
                 </a> 
                 <div class="members-counter"> 
                     <img 
-                    src='https://img.shields.io/badge/50-miembros-green.svg' 
-                    alt='50 miembros' />
+                    src='https://img.shields.io/badge/51-miembros-green.svg' 
+                    alt='51 miembros' />
                 </div>
                 <span id="tooltip-53" style="display: none">
   <div class="title title-tooltip">
@@ -2568,36 +2574,12 @@ Somos la comunidad trujillana de WordPress, reunimos a programadores, diseñador
     </dd>
 
     </div>
-    <div class="column events w-25">
+    <div class="column events w-25 scrollbar">
         
 
 
 <dt>Proximos Eventos</dt>
 
-
-    <div class="date-row">
-        <div>
-            <div class="date-marker">
-                <h1>
-                    12
-                </h1>
-                <small>
-                    Oct
-                </small>
-            </div>
-        </div>
-        <dd class="event-list">
-            <ul>
-                
-                    <li>
-                        <a href="https://www.meetup.com/wpperu-arequipa/events/265408238/">Primer Taller - WordPress para Ellas</a>
-                        <small><b>Organizado por:</b> WordPress Perú - Arequipa</small>
-                        <small><b>05:00 PM</b> | Salaverry 301 (Arequipa)</small>
-                    </li>
-                 
-            </ul>
-        </dd>
-    </div>
 
     <div class="date-row">
         <div>
@@ -2700,7 +2682,7 @@ Somos la comunidad trujillana de WordPress, reunimos a programadores, diseñador
                     <li>
                         <a href="https://www.meetup.com/GDGChimbote/events/263273516/">DevFest GDG Chimbote 2019</a>
                         <small><b>Organizado por:</b> GDG Chimbote</small>
-                        <small><b>08:00 AM</b> | I.E.S.T.P. Carlos Salazar Romero (Nuevo Chimbote District)</small>
+                        <small><b>08:00 AM</b> | Colegio de Ingenieros del Perú (Nuevo Chimbote)</small>
                     </li>
                 
                     <li>
@@ -3353,7 +3335,6 @@ Somos la comunidad trujillana de WordPress, reunimos a programadores, diseñador
 
     </div>
 </div>
-
   </body>
 
 </html>
