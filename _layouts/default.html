@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <head> 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {%- seo -%}
-        {% capture maincss %}{% include custom.scss %}{% endcapture %}
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.5/dist/jBox.all.min.js"></script>
-    {% if site.events.enabled %}
-      <script src="https://momentjs.com/downloads/moment.min.js"></script>
-    {% endif %}
-    <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.5/dist/jBox.all.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {%- seo -%}
+  {% capture maincss %}{% include custom.scss %}{% endcapture %}
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.5/dist/jBox.all.min.js"></script>
+  {% if site.events.enabled %}
+  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+  {% endif %}
+  <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.5/dist/jBox.all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
 
-  <body>
-    <style type="text/css">
-      {{ maincss | scssify }}
-    </style>
-    {{ content }}
-  </body>
+<body>
+  <style type="text/css">
+    {{ maincss | scssify }}
+  </style>
+  {{ content }}
+
+  <script>
+    const toogleTheme = document.querySelector('.darkmode-toggle');
+
+    toogleTheme.addEventListener('click', function () {
+      if (this.classList.contains('dark')) {
+        document.documentElement.setAttribute('data-theme', 'lighttheme')
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dartheme')
+      }
+      this.classList.toggle("dark");
+    })
+
+  </script>
+</body>
+
 
 </html>

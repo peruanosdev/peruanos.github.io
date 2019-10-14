@@ -11,3 +11,4 @@ Gemfile.lock
 .idea/
 _data/events.json
 _data/info.json
+.jekyll-cache
