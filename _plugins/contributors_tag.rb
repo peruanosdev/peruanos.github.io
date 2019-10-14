@@ -19,7 +19,7 @@ module Jekyll
         def render(context)
             contributors = getContributors
 
-            element = "<div class='contributors'>"
+            element = "<div class='contributors scrollbar'>"
             contributors.each do |contributor|
                 element += "<div class='contributor'>"
                 element += "    <a href='#{contributor["html_url"]}' title='#{contributor["title"]}'>"
