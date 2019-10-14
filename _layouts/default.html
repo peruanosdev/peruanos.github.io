@@ -12,6 +12,7 @@
   {% if site.events.enabled %}
   <script src="https://momentjs.com/downloads/moment.min.js"></script>
   {% endif %}
+  <script src="{{ 'js/main.js' | prepend: site.baseUrl }}/"></script>
   <link href="https://cdn.jsdelivr.net/gh/StephanWagner/jBox@v1.0.5/dist/jBox.all.min.css" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
@@ -21,21 +22,5 @@
     {{ maincss | scssify }}
   </style>
   {{ content }}
-
-  <script>
-    const toogleTheme = document.querySelector('.darkmode-toggle');
-
-    toogleTheme.addEventListener('click', function () {
-      if (this.classList.contains('dark')) {
-        document.documentElement.setAttribute('data-theme', 'lighttheme')
-      } else {
-        document.documentElement.setAttribute('data-theme', 'dartheme')
-      }
-      this.classList.toggle("dark");
-    })
-
-  </script>
 </body>
-
-
 </html>
