@@ -7,7 +7,7 @@ module Jekyll
         def initialize(tag_name, text, tokens)
             super
         end
-        
+
         def getContributors
             uri = URI.parse("https://api.github.com/repos/peruanosdev/peruanos.github.io/contributors")
             response = Net::HTTP.get_response(uri)
