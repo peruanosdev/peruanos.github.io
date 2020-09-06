@@ -1,13 +1,14 @@
-# coding: utf-8
+# frozen_string_literal: true
+
 require 'jekyll'
 require_relative 'lib/meetup_data_extractor.rb'
 
 task :prepare do
-    puts 'Preparing data...'.bold
-    Download_data::Generator.new.generate()
+  puts 'Preparing data...'.bold
+  Download_data::Generator.new.generate
 end
 
 task :build do
-puts 'Building site...'.bold
-    Jekyll::Commands::Build.process(profile: true)
+  puts 'Building site...'.bold
+  Jekyll::Commands::Build.process(profile: true)
 end
