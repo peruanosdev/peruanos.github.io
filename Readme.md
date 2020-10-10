@@ -4,12 +4,12 @@
 
 Si no encuentras tu comunidad, puedes agregarla desde [aquí](https://github.com/peruanosdev/peruanos.github.io/edit/master/_data/communities.json).
 
-## Setup Deveploment
+## Configuración Local (Modo Desarrollo)
 
-To start this application locally:
+Para levantar la aplicación localmemte sigue los siguientes pasos:
 
-1. Make sure you have installed Ruby
-2. Install the dependencies: `bundle install`
-3. Get data: `rake prepare`
-4. Start the application: `bundle exec jekyll serve`
-5. Go to the [app](http://127.0.0.1:4000)
+1. Asegúrate de tener instalado Ruby
+2. Instala las dependencias: `bundle install`
+3. Obtener datos: `rake prepare`
+4. Empezar la app: `bundle exec jekyll serve`
+5. Ir a la [app](http://127.0.0.1:4000)
