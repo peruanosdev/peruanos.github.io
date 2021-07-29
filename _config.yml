@@ -1,6 +1,6 @@
 url: https://peruanos.dev
 title: peruanos.dev
-theme: minima
+theme: jekyll-theme-minimal
 
 events:
   enabled: true
