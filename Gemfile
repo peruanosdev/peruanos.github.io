@@ -9,3 +9,5 @@ gem 'kramdown-parser-gfm'
 gem "webrick", "~> 1.7"
 gem 'eventmachine','1.2.7'
 gem "nokogiri"
+
+gem "jekyll-gh-contributors", "1.0.8"

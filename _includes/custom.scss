@@ -119,23 +119,14 @@ body {
   margin-left: 10px;
 }
 
-.truncate {
+.truncate { 
   width: 250px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  text-overflow:ellipsis;
 }
 
-.contributors {
-  margin-top: 30px;
-  display: flex;
-  flex-flow: row wrap;
 
-  .contributor {
-    width: 39px;
-    padding: 1px;
-  }
-}
 @media (min-width: 760px) {
   .w-25 {
     flex: 0 0 25%;
