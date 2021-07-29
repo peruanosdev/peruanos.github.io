@@ -20,8 +20,8 @@ module Download_data
 
     def get_next_events_data(url_name)
       request_uri = "https://api.meetup.com/#{url_name}/events"
-      encoded_uri = URI.encode(request_uri)
-      meetup_events_uri = URI.parse(encoded_uri)
+      #encoded_uri = URI.encode(request_uri)
+      meetup_events_uri = URI.parse(request_uri)
 
       response = Net::HTTP.get_response(meetup_events_uri)
 
@@ -39,19 +39,14 @@ module Download_data
 
         request_uri = "https://api.meetup.com/#{match[:uri_name]}"
 
-        encoded_uri = URI.encode(request_uri)
-        meetup_uri = URI.parse(encoded_uri)
+        meetup_uri = URI.parse(request_uri)
         puts "Getting Meetup Data from #{uri}"
         response = Net::HTTP.get_response(meetup_uri)
-
         meetup_data = JSON.parse(response.body)
-
         return [] if meetup_data["errors"]
-
         puts "Getting next events for #{meetup_data['name']}"
         events_data = get_next_events_data(match[:uri_name])
         puts "#{events_data.count} events founded"
-
         [meetup_data, events_data]
       end
     end
@@ -67,6 +62,7 @@ module Download_data
       communities_array.each do |community|
         community_url = community['url']
         meetup_data, events_data = get_meetup_data(community_url)
+        sleep(2)
         meetup_list += [meetup_data] if meetup_data
         events_list += events_data if events_data
       end
