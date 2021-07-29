@@ -6,3 +6,4 @@ events:
   enabled: true
   label: Proximos Eventos
 
+plugins: [jekyll-gh-contributors]
